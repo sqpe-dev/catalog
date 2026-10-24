@@ -1,0 +1,15 @@
+name: Correct a record
+description: Report incorrect metadata or editorial content.
+body:
+  - type: textarea
+    id: record
+    attributes:
+      label: Record ID or catalog URL
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should change, and what primary source supports it?
+    validations:
+      required: true

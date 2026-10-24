@@ -1,0 +1,677 @@
+[
+  {
+    "line": 2005,
+    "recordId": "nousdb",
+    "citation": "[NousDB - A Fast Query Engine for Semantic Analytics](https://arxiv.org/abs/2610.28551). Christos Tsapelas, Georgia Koutrika, Yannis Ioannidis. arXiv:2610.28551, 2026. Version 1 requested; v2 was posted October 21, 2026."
+  },
+  {
+    "line": 2006,
+    "recordId": "jevdb",
+    "citation": "[Prune First, Decide Fast: Scalable Semantic Query Processing with JEVDB](https://arxiv.org/abs/2610.02046). Zhengle Wang, Hanxu Yan, Fuheng Zhao, Chunwei Liu. arXiv:2610.02046, 2026."
+  },
+  {
+    "line": 2007,
+    "recordId": "semviews",
+    "citation": "[Semantic Views: Certified Reuse of LLM Labels Across Semantic Queries](https://arxiv.org/abs/2610.12768). Oktie Hassanzadeh, Dharmashankar Subramanian. arXiv:2610.12768, 2026. [Code/data](https://github.com/semviews/lotus-semviews)."
+  },
+  {
+    "line": 2008,
+    "recordId": "ref-e4aa4c5754b8",
+    "citation": "[Demo of SemWeave: Semantic Common Expressions for LLM-powered Query Processing](https://doi.org/10.1145/3788853.3801593). Md. Tareq Mahmood, Venkatesh Emani, Hangdong Zhao, Shivaram Venkataraman. SIGMOD Companion, 2026."
+  },
+  {
+    "line": 2010,
+    "recordId": "lotus",
+    "citation": "[Semantic Operators: A Declarative Model for Rich, AI-based Analytics Over Text Data](https://arxiv.org/abs/2407.11418). Liana Patel, Siddharth Jha, Parth Asawa, Melissa Pan, Carlos Guestrin, Matei Zaharia. 2024."
+  },
+  {
+    "line": 2011,
+    "recordId": "uqe",
+    "citation": "[UQE: A Query Engine for Unstructured Databases](https://arxiv.org/abs/2407.09522). Hanjun Dai, Bethany Yixin Wang, Xingchen Wan, Bo Dai, Sherry Yang, Azade Nova, Pengcheng Yin, Phitchaya Mangpo Phothilimthana, Charles Sutton, Dale Schuurmans. 2024."
+  },
+  {
+    "line": 2012,
+    "recordId": "palimpzest",
+    "citation": "[A Declarative System for Optimizing AI Workloads](https://arxiv.org/abs/2405.14696). Chunwei Liu, Matthew Russo, Michael Cafarella, Lei Cao, Peter Baille Chen, Zui Chen, Michael Franklin, Tim Kraska, Samuel Madden, Gerardo Vitagliano. 2024."
+  },
+  {
+    "line": 2013,
+    "recordId": "docetl",
+    "citation": "[DocETL: Agentic Query Rewriting and Evaluation for Complex Document Processing](https://arxiv.org/abs/2410.12189). Shreya Shankar, Tristan Chambers, Tarak Shah, Aditya G. Parameswaran, Eugene Wu. 2024."
+  },
+  {
+    "line": 2014,
+    "recordId": "ref-0dd51ec5b206",
+    "citation": "[100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models](https://doi.org/10.1145/3802002). Yeounoh Chung, Rushabh Desai, Jian He, Yu Xiao, Thibaud Hottelier, Yves-Laurent Kom Samo, Pushkar Khadilkar, Xianshun Chen, Sam Idicula, Fatma Özcan, Alon Halevy, Yannis Papakonstantinou. Proc. ACM Manag. Data / SIGMOD 2026. See also [arXiv:2603.15970](https://arxiv.org/abs/2603.15970)."
+  },
+  {
+    "line": 2015,
+    "recordId": "arxiv-2511-07663",
+    "citation": "[Cortex AISQL: A Production SQL Engine for Unstructured Data](https://arxiv.org/abs/2511.07663). Paritosh Aggarwal et al. 2025."
+  },
+  {
+    "line": 2016,
+    "recordId": "sembench",
+    "citation": "[SemBench: A Benchmark for Semantic Query Processing Engines](https://arxiv.org/abs/2511.01716). Jiale Lao et al. 2025."
+  },
+  {
+    "line": 2017,
+    "recordId": "lrobench",
+    "citation": "[Large Language Model-Enhanced Relational Operators: Taxonomy, Benchmark, and Analysis / LROBench](https://arxiv.org/abs/2603.02537). Yunxiang Su, Tianjing Zeng, Zhongjun Ding, Yin Lin, Rong Zhu, Zhewei Wei, Bolin Ding, Jingren Zhou. 2026."
+  },
+  {
+    "line": 2018,
+    "recordId": "spider2-aifunc",
+    "citation": "[Spider 2.0-AIFunc: Extending Real-World Text-to-SQL to AI-Native SQL Workflows](https://arxiv.org/abs/2607.06229). Tianyang Liu, Canwen Xu, Fangyu Lei, Nikki Lijing Kuang, Jixuan Chen, Tao Yu, Julian McAuley, Zhewei Yao, Yuxiong He. 2026."
+  },
+  {
+    "line": 2019,
+    "recordId": "stochastic-shift",
+    "citation": "[The Stochastic Shift: A New Evaluation Paradigm for Text-to-SQL with AI Operators](https://arxiv.org/abs/2609.21133). Tarfah Alrashed, Fatma Ozcan, Per Jacobsson, Tal Neiman, Xianshun Chen. 2026."
+  },
+  {
+    "line": 2020,
+    "recordId": "hybrid-deep-research",
+    "citation": "[Benchmarking Hybrid Deep Research Across Database Querying and Web Search](https://arxiv.org/abs/2609.09410). Ruofan Wu, Peiran Xu, Xiaolong Li, Fan Shu, Soyoung Yoon, Yite Wang, Xiaodong Yu, Boyi Liu, Feng Yan, Debiao Li, Yuxiong He, Zhewei Yao. 2026."
+  },
+  {
+    "line": 2021,
+    "recordId": "plop",
+    "citation": "[Horrila: Cost-Based Placement of Semantic Operators in Hybrid Query Plans](https://arxiv.org/abs/2604.09944). Qiuyang Mang et al. 2026."
+  },
+  {
+    "line": 2022,
+    "recordId": "sema",
+    "citation": "[Sema: A High-performance System for LLM-based Semantic Query Processing](https://arxiv.org/abs/2603.11622). Kangkang Qi et al. 2026."
+  },
+  {
+    "line": 2023,
+    "recordId": "flockmtl",
+    "citation": "[Beyond Quacking: Deep Integration of Language Models and RAG into DuckDB](https://arxiv.org/abs/2504.01157). Anas Dorbani, Sunny Yasser, Jimmy Lin, Amine Mhedhbi. 2025."
+  },
+  {
+    "line": 2024,
+    "recordId": "relational-llm-optimization",
+    "citation": "[Optimizing LLM Queries in Relational Workloads](https://arxiv.org/abs/2403.05821). Shu Liu et al. 2024."
+  },
+  {
+    "line": 2025,
+    "recordId": "arxiv-2602-01701",
+    "citation": "[Meta Engine: A Unified Semantic Query Engine on Heterogeneous LLM-Based Query Systems](https://arxiv.org/abs/2602.01701). Ruyu Li et al. 2026."
+  },
+  {
+    "line": 2030,
+    "recordId": "arxiv-2606-29151",
+    "citation": "[CADENZA: Compiling Natural-Language Intent into Task-Specific Operator DAGs for Semantic Query Processing](https://arxiv.org/abs/2606.29151). Jaehyun Ha, Yongjoo Park, Wook-Shin Han. SIGMOD 2027 / arXiv 2026."
+  },
+  {
+    "line": 2031,
+    "recordId": "larch",
+    "citation": "[Larch: Learned Query Optimization for Semantic Predicates](https://arxiv.org/abs/2606.07923). Fuheng Zhao, Pawel Liskowski, Zihan Li, Benjamin Han, Puxuan Yu, Varich Boonsanong, Dimitris Tsirogiannis, Anupam Datta. 2026."
+  },
+  {
+    "line": 2032,
+    "recordId": "fast-semantic-filtering",
+    "citation": "[Fast LLM-Based Semantic Filtering: From a Unified Framework to an Adaptive Two-Phase Method](https://arxiv.org/abs/2606.08090). Kyoungmin Kim, Martin Catheland, Anastasia Ailamaki. 2026."
+  },
+  {
+    "line": 2033,
+    "recordId": "semjoin",
+    "citation": "[SemJoin: Semantic Join Optimization](https://arxiv.org/abs/2606.29532). Christopher Gou, Aditya Banerjee, Jiaxuan Wang, Chunwei Liu. VLDB 2026 Workshop: NOVAS / arXiv 2026."
+  },
+  {
+    "line": 2034,
+    "recordId": "arxiv-2512-05399",
+    "citation": "[Featurized-Decomposition Join: Low-Cost Semantic Joins with Guarantees](https://arxiv.org/abs/2512.05399). Sepanta Zeighami, Shreya Shankar, Aditya Parameswaran. 2025."
+  },
+  {
+    "line": 2035,
+    "recordId": "ref-43d0f45c6e32",
+    "citation": "[Accelerating Approximate Analytical Join Queries over Unstructured Data with Statistical Guarantees](https://doi.org/10.1145/3802004). Yuxuan Zhu, Tengjun Jin, Chenghao Mo, Daniel Kang. Proc. ACM Manag. Data / SIGMOD 2026."
+  },
+  {
+    "line": 2036,
+    "recordId": "llm-order-by",
+    "citation": "[Access Paths for Efficient Ordering with Large Language Models](https://arxiv.org/abs/2509.00303). Fuheng Zhao, Jiayue Chen, Yiming Pan, Tahseen Rabbani, Sohaib, Divyakant Agrawal, Amr El Abbadi, Paritosh Aggarwal, Anupam Datta, Dimitris Tsirogiannis. 2025/2026."
+  },
+  {
+    "line": 2037,
+    "recordId": "arxiv-2603-17223",
+    "citation": "[ListK: Semantic ORDER BY and LIMIT K with Listwise Prompting](https://arxiv.org/abs/2603.17223). Jason Shin, Jiwon Chang, Fatemeh Nargesian. 2026."
+  },
+  {
+    "line": 2038,
+    "recordId": "arxiv-2503-20119",
+    "citation": "[Approximating Opaque Top-k Queries](https://arxiv.org/abs/2503.20119). Jiwon Chang, Fatemeh Nargesian. Proc. ACM Manag. Data 2025."
+  },
+  {
+    "line": 2039,
+    "recordId": "arxiv-2502-18470",
+    "citation": "[RankLLM: A Framework for Ranking with Large Language Models](https://arxiv.org/abs/2502.18470). Shervin Sharifymoghaddam et al. 2025."
+  },
+  {
+    "line": 2040,
+    "recordId": "arxiv-2312-02724",
+    "citation": "[RankZephyr: Effective and Robust Zero-Shot Listwise Reranking is a Breeze!](https://arxiv.org/abs/2312.02724). Ronak Pradeep, Sahel Sharifymoghaddam, Jimmy Lin. 2023."
+  },
+  {
+    "line": 2041,
+    "recordId": "arxiv-2607-00254",
+    "citation": "[Query-Centric Optimization of AI Workflows via Approximate Query Processing and Proxy Models](https://arxiv.org/abs/2607.00254). Huayi Wang, Jun Xu, Gromit Yeuk-Yin Chan. 2026."
+  },
+  {
+    "line": 2042,
+    "recordId": "ipdb",
+    "citation": "[iPDB: Optimizing SQL Queries with ML and LLM Predicates](https://arxiv.org/abs/2601.16432). Udesh Kumarasinghe, Tyler Liu, Chunwei Liu, Walid G. Aref. 2026."
+  },
+  {
+    "line": 2043,
+    "recordId": "arxiv-2403-14902",
+    "citation": "[Aero/Hydro: Adaptive Query Processing of ML Queries](https://arxiv.org/abs/2403.14902). Gaurav Tarlok Kakkar, Jiashen Cao, Aubhro Sengupta, Joy Arulraj, Hyesoon Kim. 2024/2025."
+  },
+  {
+    "line": 2044,
+    "recordId": "arxiv-1911-00231",
+    "citation": "[Extending Relational Query Processing with ML Inference](https://arxiv.org/abs/1911.00231). Konstantinos Karanasos, Matteo Interlandi, Doris Xin, Fotis Psallidas, Rathijit Sen, Kwanghyun Park, Ivan Popivanov, Supun Nakandal, Subru Krishnan, Markus Weimer, Yuan Yu, Raghu Ramakrishnan, Carlo Curino. CIDR 2020."
+  },
+  {
+    "line": 2045,
+    "recordId": "arxiv-2312-17355",
+    "citation": "[The Duck's Brain: Training and Inference of Neural Networks in Modern Database Engines](https://arxiv.org/abs/2312.17355). Maximilian E. Schule, Thomas Neumann, Alfons Kemper. 2023/2024."
+  },
+  {
+    "line": 2046,
+    "recordId": "ref-a7c381b5e4ce",
+    "citation": "[MADlib: The MADlib Analytics Library, or MAD Skills, the SQL](https://doi.org/10.14778/2367502.2367510). Joseph M. Hellerstein, Christopher Re, Florian Schoppmann, Daisy Zhe Wang, Eugene Fratkin, Aleksander Gorajek, Kee Siong Ng, Caleb Welton, Xixuan Feng, Kun Li, Arun Kumar. PVLDB 2012."
+  },
+  {
+    "line": 2047,
+    "recordId": "ref-3e4a67ac6d74",
+    "citation": "[DuckDB: an Embeddable Analytical Database](https://doi.org/10.1145/3299869.3320212). Mark Raasveldt, Hannes Mühleisen. SIGMOD 2019."
+  },
+  {
+    "line": 2048,
+    "recordId": "ref-84654a2d3434",
+    "citation": "[MonetDB/X100: Hyper-Pipelining Query Execution](https://www.cidrdb.org/cidr2005/papers/P19.pdf). Peter Boncz, Marcin Zukowski, Niels Nes. CIDR 2005."
+  },
+  {
+    "line": 2049,
+    "recordId": "ref-3dff26b27bff",
+    "citation": "[BioDEX: Large-Scale Biomedical Adverse Drug Event Extraction for Real-World Pharmacovigilance](https://doi.org/10.18653/v1/2023.findings-emnlp.896). Karel D'Oosterlinck et al. Findings of EMNLP 2023."
+  },
+  {
+    "line": 2050,
+    "recordId": "arxiv-2510-08489",
+    "citation": "[Implementing Semantic Join Operators Efficiently](https://arxiv.org/abs/2510.08489). Immanuel Trummer. 2025. Also referred to above as the Adaptive Block Join / ABJ line of work."
+  },
+  {
+    "line": 2051,
+    "recordId": "arxiv-2505-14661",
+    "citation": "[Abacus: A Cost-Based Optimizer for Semantic Operator Systems](https://arxiv.org/abs/2505.14661). Konstantinos Chasialis, Yannis Foufoulas, Alkis Simitsis, Yannis Ioannidis, Samuel Madden, Michael Cafarella. 2025."
+  },
+  {
+    "line": 2052,
+    "recordId": "arxiv-2507-06515",
+    "citation": "[Quest: Query Optimization in Unstructured Document Analysis](https://arxiv.org/abs/2507.06515). Zhaoze Sun, Qiyan Deng, Chengliang Chai, Kaisen Jin, Xinyu Guo, Han Han, Ye Yuan, Guoren Wang, Lei Cao. 2025."
+  },
+  {
+    "line": 2053,
+    "recordId": "arxiv-2509-12610",
+    "citation": "[ScaleDoc: Scaling LLM-based Predicates over Large Document Collections](https://arxiv.org/abs/2509.12610). Hengrui Zhang, Yulong Hui, Yihao Liu, Huanchen Zhang. 2025."
+  },
+  {
+    "line": 2054,
+    "recordId": "arxiv-2603-04799",
+    "citation": "[Beyond Linear LLM Invocation: An Efficient and Effective Semantic Filter Paradigm](https://arxiv.org/abs/2603.04799). Nan Hou, Kangfei Zhao, Jiadong Xie, Jeffrey Xu Yu. 2026."
+  },
+  {
+    "line": 2055,
+    "recordId": "ref-21402d1d1aea",
+    "citation": "Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees. Sepanta Zeighami, Shreya Shankar, Aditya Parameswaran. Proc. ACM Manag. Data 3(6), 2025. Cited in semantic filtering and join papers as BARGAIN-style cascade work."
+  },
+  {
+    "line": 2056,
+    "recordId": "ref-92c7cd3291ab",
+    "citation": "[KEN: An Execution Engine for Unstructured Database Systems](https://www.vldb.org/pvldb/vol19/p902-kossmann.pdf). Ferdinand Kossmann, Ziniu Wu, Alex Turk, Nesime Tatbul, Lei Cao, Samuel Madden. PVLDB 2026."
+  },
+  {
+    "line": 2057,
+    "recordId": "arxiv-2508-05012",
+    "citation": "[Making Prompts First-Class Citizens for Adaptive LLM Pipelines](https://arxiv.org/abs/2508.05012). Ugur Cetintemel, Shu Chen, Alexander W. Lee, Deepti Raghavan. 2025."
+  },
+  {
+    "line": 2058,
+    "recordId": "arxiv-2604-00660",
+    "citation": "[Streaming Model Cascades for Semantic SQL](https://arxiv.org/abs/2604.00660). Pawel Liskowski, Kyle Schmaus. 2026."
+  },
+  {
+    "line": 2059,
+    "recordId": "arxiv-2402-17882",
+    "citation": "[BlendSQL: A Scalable Dialect for Unifying Hybrid Question Answering in Relational Algebra](https://arxiv.org/abs/2402.17882). Parker Glenn, Parag Pravin Dakle, Liang Wang, Preethi Raghavan. 2024."
+  },
+  {
+    "line": 2060,
+    "recordId": "arxiv-2408-00884",
+    "citation": "[Hybrid Querying Over Relational Databases and Large Language Models](https://arxiv.org/abs/2408.00884). Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi. 2024."
+  },
+  {
+    "line": 2061,
+    "recordId": "ref-efdd20df7d0b",
+    "citation": "[Logical and Physical Optimizations for SQL Query Execution over Large Language Models](https://doi.org/10.1145/3725411). Dario Satriani, Enzo Veltri, Donatello Santoro, Sara Rosato, Simone Varriale, Paolo Papotti. Proc. ACM Manag. Data / SIGMOD 2025."
+  },
+  {
+    "line": 2062,
+    "recordId": "ref-d845a48dcc81",
+    "citation": "ThalamusDB: Approximate Query Processing on Multi-Modal Data. Saehan Jo, Immanuel Trummer. Proc. ACM Manag. Data 2024."
+  },
+  {
+    "line": 2063,
+    "recordId": "ref-c1f091aed610",
+    "citation": "[Approximate Selection with Guarantees using Proxies](https://www.vldb.org/pvldb/vol13/p1990-kang.pdf). Daniel Kang, Edward Gan, Peter Bailis, Tatsunori Hashimoto, Matei Zaharia. PVLDB 2020."
+  },
+  {
+    "line": 2064,
+    "recordId": "ref-120601be24c4",
+    "citation": "[Accelerating Approximate Aggregation Queries with Expensive Predicates](https://www.vldb.org/pvldb/vol14/p2341-kang.pdf). Daniel Kang, John Guibas, Peter Bailis, Tatsunori Hashimoto, Yi Sun, Matei Zaharia. PVLDB 2021."
+  },
+  {
+    "line": 2065,
+    "recordId": "ref-c6cf5f1702f9",
+    "citation": "[Accelerating Machine Learning Inference with Probabilistic Predicates](https://doi.org/10.1145/3183713.3183751). Yao Lu, Aakanksha Chowdhery, Srikanth Kandula, Surajit Chaudhuri. SIGMOD 2018."
+  },
+  {
+    "line": 2066,
+    "recordId": "ref-564f2022e48d",
+    "citation": "[Wander Join: Online Aggregation for Joins](https://doi.org/10.1145/2882903.2915235). Feifei Li, Bin Wu, Ke Yi, Zhuoyue Zhao. SIGMOD 2016."
+  },
+  {
+    "line": 2067,
+    "recordId": "ref-37c0c1fa8efa",
+    "citation": "[Eddies: Continuously Adaptive Query Processing](https://doi.org/10.1145/342009.335420). Ron Avnur, Joseph M. Hellerstein. SIGMOD 2000."
+  },
+  {
+    "line": 2068,
+    "recordId": "ref-f7ee7814e14e",
+    "citation": "[BlazeIt: Optimizing Declarative Aggregation and Limit Queries for Neural Network-Based Video Analytics](http://www.vldb.org/pvldb/vol12/p1199-kang.pdf). Daniel Kang, Peter Bailis, Matei Zaharia. PVLDB 2019."
+  },
+  {
+    "line": 2069,
+    "recordId": "ref-8891df20ddbe",
+    "citation": "[NoScope: Optimizing Neural Network Queries over Video at Scale](http://www.vldb.org/pvldb/vol10/p1586-kang.pdf). Daniel Kang, John Emmons, Firas Abuzaid, Peter Bailis, Matei Zaharia. PVLDB 2017."
+  },
+  {
+    "line": 2074,
+    "recordId": "sembaker",
+    "citation": "[From Interpretation to Compilation: A Compilation-Based Execution Engine for Semantic Operator Systems (SemBaker)](https://arxiv.org/abs/2608.06677). Wenkai Dong, Yifan Wang. arXiv:2608.06677, 2026. [Code](https://github.com/iDB-Research-Group/SemBaker)."
+  },
+  {
+    "line": 2075,
+    "recordId": "arxiv-2409-00847",
+    "citation": "[The Design of an LLM-powered Unstructured Analytics System (Aryn/Sycamore)](https://arxiv.org/abs/2409.00847). Eric Anderson et al. CIDR 2025. A closely related declarative-document architecture discussed by NousDB."
+  },
+  {
+    "line": 2076,
+    "recordId": "ref-f9e3f7194e66",
+    "citation": "[Apache DataFusion: A Fast, Extensible Query Engine for Building High-Quality Data-Centric Systems](https://doi.org/10.1145/3626246.3653368). Query-engine substrate used by NousDB."
+  },
+  {
+    "line": 2078,
+    "recordId": "kalypso",
+    "citation": "[Kalypso: Relational LLM Serving](https://arxiv.org/abs/2607.23815). Hojae Son, Md Ashraful Islam, Huy Gia Cao, Hui Guan, Marco Serafini. 2026."
+  },
+  {
+    "line": 2079,
+    "recordId": "arxiv-2609-19491",
+    "citation": "[Efficiently Linking Unstructured Data for Multi-step Reasoning](https://arxiv.org/abs/2609.19491). Jiaming Liang, Haydn Jones, Jacob R. Gardner, Mark Yatskar, Zachary Ives. 2026."
+  },
+  {
+    "line": 2080,
+    "recordId": "arxiv-2609-09002",
+    "citation": "[Factorized and Vectorized Execution: Optimizing Analytical and Semantic Queries over Relations](https://arxiv.org/abs/2609.09002). Sunny Yasser, Anas Dorbani, Amine Mhedhbi. Proc. ACM Manag. Data 4(3), Article 178, 2026."
+  },
+  {
+    "line": 2081,
+    "recordId": "arxiv-2309-06180",
+    "citation": "[vLLM: Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180). Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody Hao Yu, Joseph Gonzalez, Hao Zhang, Ion Stoica. SOSP 2023."
+  },
+  {
+    "line": 2082,
+    "recordId": "arxiv-2312-07104",
+    "citation": "[SGLang: Efficient Execution of Structured Language Model Programs](https://arxiv.org/abs/2312.07104). Lianmin Zheng et al. 2024."
+  },
+  {
+    "line": 2083,
+    "recordId": "ref-76210079970f",
+    "citation": "[Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu). Gyeong-In Yu, Joo Seong Jeong, Geon-Woo Kim, Soojeong Kim, Byung-Gon Chun. OSDI 2022."
+  },
+  {
+    "line": 2084,
+    "recordId": "ref-bf0630162d5d",
+    "citation": "[Sarathi-Serve: Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://www.usenix.org/conference/osdi24/presentation/agrawal). Amey Agrawal et al. OSDI 2024."
+  },
+  {
+    "line": 2085,
+    "recordId": "ref-d08d91468182",
+    "citation": "[DistServe: Disaggregating Prefill and Decoding for Goodput-Optimized Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/zhong-yinmin). Yinmin Zhong et al. OSDI 2024."
+  },
+  {
+    "line": 2086,
+    "recordId": "ref-4a9db4de3b2b",
+    "citation": "[Llumnix: Dynamic Scheduling for Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/sun-biao). Biao Sun et al. OSDI 2024."
+  },
+  {
+    "line": 2087,
+    "recordId": "ref-c2e55193e68a",
+    "citation": "[Prompt Cache: Modular Attention Reuse for Low-Latency Inference](https://proceedings.mlsys.org/paper_files/paper/2024/hash/42a9f67b9afc73c7c9a128e5a0d1e4e4-Abstract-Conference.html). In Gim et al. MLSys 2024."
+  },
+  {
+    "line": 2088,
+    "recordId": "arxiv-2512-03389",
+    "citation": "[Continuous Prompts: LLM-Augmented Pipeline Processing over Unstructured Streams](https://arxiv.org/abs/2512.03389). Shu Chen, Deepti Raghavan, Uğur Çetintemel. 2025."
+  },
+  {
+    "line": 2089,
+    "recordId": "arxiv-2602-05134",
+    "citation": "[SemPipes: Optimizable Semantic Data Operators for Tabular Machine Learning Pipelines](https://arxiv.org/abs/2602.05134). Olga Ovcharenko, Matthias Boehm, Sebastian Schelter. 2026."
+  },
+  {
+    "line": 2090,
+    "recordId": "arxiv-2601-05536",
+    "citation": "[Task Cascades for Efficient Unstructured Data Processing](https://arxiv.org/abs/2601.05536). Shreya Shankar, Sepanta Zeighami, Aditya Parameswaran. 2026."
+  },
+  {
+    "line": 2091,
+    "recordId": "arxiv-2509-02751",
+    "citation": "[Deep Research is the New Analytics System: Towards Building the Runtime for AI-Driven Analytics](https://arxiv.org/abs/2509.02751). Matthew Russo, Tim Kraska. 2025."
+  },
+  {
+    "line": 2097,
+    "recordId": "arxiv-2408-14717",
+    "citation": "[Text2SQL is Not Enough: Unifying AI and Databases with TAG](https://arxiv.org/abs/2408.14717). A. Biswal et al. 2024."
+  },
+  {
+    "line": 2098,
+    "recordId": "arxiv-2409-00847",
+    "citation": "[The Design of an LLM-Powered Unstructured Analytics System / Aryn-Sycamore](https://arxiv.org/abs/2409.00847). E. Anderson et al. 2024."
+  },
+  {
+    "line": 2099,
+    "recordId": "arxiv-2307-07306",
+    "citation": "[C3: Zero-shot Text-to-SQL with ChatGPT](https://arxiv.org/abs/2307.07306). X. Dong et al. 2023. Relevant to schema-linking-as-LRO framing."
+  },
+  {
+    "line": 2100,
+    "recordId": "ref-c289f402557f",
+    "citation": "In-depth Analysis of LLM-Based Schema Linking. G. Katsogiannis-Meimarakis, K. Mirylenka, P. Scotton, F. Fusco, A. Labbi. EDBT 2026."
+  },
+  {
+    "line": 2101,
+    "recordId": "arxiv-2205-09911",
+    "citation": "[Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911). Avanika Narayan, Ines Chami, Laurel Orr, Christopher Re. PVLDB 2022."
+  },
+  {
+    "line": 2102,
+    "recordId": "ref-547df79ea94f",
+    "citation": "Booster: Leveraging Large Language Models for Enhancing Entity Resolution. H. Li, S. Li, F. Hao, C. Zhang, Y. Song, L. Chen. WWW Companion 2024."
+  },
+  {
+    "line": 2103,
+    "recordId": "ref-58178413b245",
+    "citation": "Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching. T. Wang et al. COLING 2025."
+  },
+  {
+    "line": 2104,
+    "recordId": "ref-eded7ed7ba25",
+    "citation": "Entity Matching Using Large Language Models. R. Peeters, A. Steiner, C. Bizer. EDBT 2025."
+  },
+  {
+    "line": 2105,
+    "recordId": "ref-c2f9278dc837",
+    "citation": "Fine-Tuning Large Language Models for Entity Matching. A. Steiner, R. Peeters, C. Bizer. ICDEW 2025."
+  },
+  {
+    "line": 2106,
+    "recordId": "ref-59c3b3b8d8eb",
+    "citation": "[UniDM: A Unified Framework for Data Manipulation with Large Language Models](https://proceedings.mlsys.org/). Y. Qian et al. MLSys 2024."
+  },
+  {
+    "line": 2107,
+    "recordId": "ref-69a564882375",
+    "citation": "LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation. X. He et al. ACL Findings 2025."
+  },
+  {
+    "line": 2108,
+    "recordId": "ref-951a1d42efbc",
+    "citation": "Large Language Models as Data Preprocessors. H. Zhang, Y. Dong, C. Xiao, M. Oyamada. VLDB Workshops 2024."
+  },
+  {
+    "line": 2109,
+    "recordId": "ref-27a51549dee0",
+    "citation": "LLMs with User-Defined Prompts as Generic Data Operators for Reliable Data Processing / LLM-GDO. L. Ma et al. IEEE Big Data 2023."
+  },
+  {
+    "line": 2110,
+    "recordId": "ref-612428ef67d8",
+    "citation": "Relationalizing Tables with Large Language Models: The Promise and Challenges. Z. Huang, E. Wu. ICDEW 2024."
+  },
+  {
+    "line": 2111,
+    "recordId": "ref-53b225c975c0",
+    "citation": "[Table-GPT: Table Fine-Tuned GPT for Diverse Table Tasks](https://doi.org/10.1145/3654930). P. Li et al. Proc. ACM Manag. Data 2024."
+  },
+  {
+    "line": 2112,
+    "recordId": "ref-c31673a03164",
+    "citation": "[SANTOS: Relationship-Based Semantic Table Union Search](https://doi.org/10.1145/3588900). A. Khatiwada et al. Proc. ACM Manag. Data 2023."
+  },
+  {
+    "line": 2113,
+    "recordId": "ref-7ef6e5010ea6",
+    "citation": "NextiaJD: Towards Scalable Data Discovery. J. Flores, S. Nadal, O. Romero. EDBT 2021."
+  },
+  {
+    "line": 2114,
+    "recordId": "ref-ed864a72efea",
+    "citation": "The Magellan Data Repository. S. Das, A. Doan, P. Konda, et al. Data repository for entity-matching benchmarks."
+  },
+  {
+    "line": 2115,
+    "recordId": "arxiv-2409-02038",
+    "citation": "[BEAVER: An Enterprise Benchmark for Text-to-SQL](https://arxiv.org/abs/2409.02038). P. B. Chen et al. 2024."
+  },
+  {
+    "line": 2116,
+    "recordId": "ref-e96e727970ad",
+    "citation": "[Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows](https://openreview.net/). F. Lei et al. ICLR 2025."
+  },
+  {
+    "line": 2117,
+    "recordId": "arxiv-2504-04808",
+    "citation": "[ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines](https://arxiv.org/abs/2504.04808). T. Jin, Y. Zhu, D. Kang. 2025."
+  },
+  {
+    "line": 2118,
+    "recordId": "ref-6da435766c04",
+    "citation": "[CAESURA: Language Models as Multi-Modal Query Planners](https://www.cidrdb.org/). M. Urban, C. Binnig. CIDR 2024."
+  },
+  {
+    "line": 2123,
+    "recordId": "run-to-run-variance",
+    "citation": "[Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing](https://arxiv.org/abs/2610.13823). Oktie Hassanzadeh, Dharmashankar Subramanian. arXiv:2610.13823, 2026. [Code/data](https://github.com/semviews/sqp-variance-study)."
+  },
+  {
+    "line": 2124,
+    "recordId": "uda-bench",
+    "citation": "[Unstructured Data Analysis using LLMs: A Comprehensive Benchmark (UDA-Bench)](https://arxiv.org/abs/2510.27119). Qiyan Deng et al. PVLDB 2026; preprint arXiv:2510.27119. [Code](https://github.com/Chandrika2527/UDA-Bench)."
+  },
+  {
+    "line": 2126,
+    "recordId": "spider2-aifunc",
+    "citation": "[Spider 2.0-AIFunc: Extending Real-World Text-to-SQL to AI-Native SQL Workflows](https://arxiv.org/abs/2607.06229). Tianyang Liu, Canwen Xu, Fangyu Lei, Nikki Lijing Kuang, Jixuan Chen, Tao Yu, Julian McAuley, Zhewei Yao, Yuxiong He. 2026."
+  },
+  {
+    "line": 2127,
+    "recordId": "stochastic-shift",
+    "citation": "[The Stochastic Shift: A New Evaluation Paradigm for Text-to-SQL with AI Operators](https://arxiv.org/abs/2609.21133). Tarfah Alrashed, Fatma Ozcan, Per Jacobsson, Tal Neiman, Xianshun Chen. 2026."
+  },
+  {
+    "line": 2128,
+    "recordId": "hybrid-deep-research",
+    "citation": "[Benchmarking Hybrid Deep Research Across Database Querying and Web Search](https://arxiv.org/abs/2609.09410). Ruofan Wu, Peiran Xu, Xiaolong Li, Fan Shu, Soyoung Yoon, Yite Wang, Xiaodong Yu, Boyi Liu, Feng Yan, Debiao Li, Yuxiong He, Zhewei Yao. 2026."
+  },
+  {
+    "line": 2129,
+    "recordId": "arxiv-2411-07763",
+    "citation": "[Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows](https://arxiv.org/abs/2411.07763). Fangyu Lei et al. 2025."
+  },
+  {
+    "line": 2130,
+    "recordId": "arxiv-2409-02038",
+    "citation": "[BEAVER: An Enterprise Benchmark for Text-to-SQL](https://arxiv.org/abs/2409.02038). Peter Baile Chen, Fabian Wenz, Yi Zhang, Devin Yang, Justin Choi, Nesime Tatbul, Michael Cafarella, Cagatay Demiralp, Michael Stonebraker. 2025."
+  },
+  {
+    "line": 2131,
+    "recordId": "arxiv-2305-03111",
+    "citation": "[BIRD: A Big Bench for Large-Scale Database Grounded Text-to-SQLs](https://arxiv.org/abs/2305.03111). Jinyang Li et al. 2023."
+  },
+  {
+    "line": 2132,
+    "recordId": "arxiv-2106-11455",
+    "citation": "[KaggleDBQA: Realistic Evaluation of Text-to-SQL Parsers](https://arxiv.org/abs/2106.11455). Chia-Hsuan Lee, Oleksandr Polozov, Matthew Richardson. 2021."
+  },
+  {
+    "line": 2133,
+    "recordId": "arxiv-2010-11246",
+    "citation": "[SQUALL: On the Potential of Lexico-Logical Alignments for Semantic Parsing to SQL Queries](https://arxiv.org/abs/2010.11246). Tianze Shi, Chen Zhao, Jordan Boyd-Graber, Hal Daume III, Lillian Lee. 2020."
+  },
+  {
+    "line": 2134,
+    "recordId": "arxiv-2509-24405",
+    "citation": "[Multilingual Text-to-SQL: Benchmarking the Limits of Language Models with Collaborative Language Agents](https://arxiv.org/abs/2509.24405). Khanh Trinh Pham et al. 2025."
+  },
+  {
+    "line": 2135,
+    "recordId": "arxiv-2510-07309",
+    "citation": "[Agent Bain vs. Agent McKinsey: A New Text-to-SQL Benchmark for the Business Domain / CORGI](https://arxiv.org/abs/2510.07309). Yue Li et al. 2026."
+  },
+  {
+    "line": 2136,
+    "recordId": "arxiv-2511-17190",
+    "citation": "[AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale](https://arxiv.org/abs/2511.17190). Ziyang Wang et al. 2025."
+  },
+  {
+    "line": 2137,
+    "recordId": "arxiv-2502-00675",
+    "citation": "[ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration](https://arxiv.org/abs/2502.00675). Minghang Deng et al. 2025."
+  },
+  {
+    "line": 2138,
+    "recordId": "arxiv-2511-21402",
+    "citation": "[Text-to-SQL as Dual-State Reasoning / DSR-SQL](https://arxiv.org/abs/2511.21402). Zhifeng Hao, Qibin Song, Ruichu Cai, Boyan Xu. 2025."
+  },
+  {
+    "line": 2139,
+    "recordId": "arxiv-2602-16720",
+    "citation": "[APEX-SQL: Talking to the Data via Agentic Exploration for Text-to-SQL](https://arxiv.org/abs/2602.16720). Bowen Cao, Weibin Liao, Yushi Sun, Dong Fang, Haitao Li, Wai Lam. 2026."
+  },
+  {
+    "line": 2140,
+    "recordId": "arxiv-2408-04667",
+    "citation": "[Non-determinism of \"Deterministic\" LLM Settings](https://arxiv.org/abs/2408.04667). Berk Atil et al. 2025."
+  },
+  {
+    "line": 2144,
+    "recordId": "suql",
+    "citation": "[SUQL: Conversational Search over Structured and Unstructured Data with Large Language Models](https://arxiv.org/abs/2311.09818). Shicheng Liu et al. 2023."
+  },
+  {
+    "line": 2145,
+    "recordId": "arxiv-2210-02875",
+    "citation": "[Binding Language Models in Symbolic Languages](https://arxiv.org/abs/2210.02875). Zhoujun Cheng et al. 2022."
+  },
+  {
+    "line": 2146,
+    "recordId": "arxiv-2312-13264",
+    "citation": "[dIR: Discrete Information Retrieval](https://arxiv.org/abs/2312.13264). Pablo M. Rodriguez Bertorello, Jean Rodmond Junior Laguerre. 2023."
+  },
+  {
+    "line": 2150,
+    "recordId": "arxiv-2304-09433",
+    "citation": "[Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes](https://arxiv.org/abs/2304.09433). Simran Arora et al. 2023."
+  },
+  {
+    "line": 2151,
+    "recordId": "arxiv-2205-09911",
+    "citation": "[Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911). Avanika Narayan et al. 2022."
+  },
+  {
+    "line": 2152,
+    "recordId": "arxiv-2406-15652",
+    "citation": "[GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables](https://arxiv.org/abs/2406.15652). Mathieu Huot et al. 2024."
+  },
+  {
+    "line": 2156,
+    "recordId": "ref-ce691ea1515b",
+    "citation": "[BigQuery ML introduction](https://cloud.google.com/bigquery/docs/bqml-introduction)."
+  },
+  {
+    "line": 2157,
+    "recordId": "ref-a47102efd896",
+    "citation": "[BigQuery ML remote model tutorial](https://cloud.google.com/bigquery/docs/bigquery-ml-remote-model-tutorial)."
+  },
+  {
+    "line": 2158,
+    "recordId": "ref-abfac6694c64",
+    "citation": "[BigQuery ML.GENERATE_TEXT syntax](https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-generate-text)."
+  },
+  {
+    "line": 2159,
+    "recordId": "ref-36e29794fe13",
+    "citation": "[BigQuery object tables](https://cloud.google.com/bigquery/docs/object-tables)."
+  },
+  {
+    "line": 2160,
+    "recordId": "ref-9d75e5a018b5",
+    "citation": "[BigQuery vector search](https://cloud.google.com/bigquery/docs/vector-search)."
+  },
+  {
+    "line": 2161,
+    "recordId": "ref-4528e197ce17",
+    "citation": "[Snowflake Cortex](https://docs.snowflake.com/en/user-guide/snowflake-cortex)."
+  },
+  {
+    "line": 2162,
+    "recordId": "ref-1710a231cd52",
+    "citation": "[Snowflake Cortex LLM functions](https://docs.snowflake.com/en/user-guide/snowflake-cortex/llm-functions)."
+  },
+  {
+    "line": 2163,
+    "recordId": "ref-65d68b74aa07",
+    "citation": "[Snowflake Cortex Search](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-overview)."
+  },
+  {
+    "line": 2164,
+    "recordId": "ref-201f6dcd0dc2",
+    "citation": "[Snowflake AI_FUNCTION_EVALUATION](https://docs.snowflake.com/en/sql-reference/functions/ai_function_evaluation)."
+  },
+  {
+    "line": 2165,
+    "recordId": "ref-d6b532935920",
+    "citation": "[Snowflake AI_FUNCTION_OPTIMIZATION](https://docs.snowflake.com/en/sql-reference/functions/ai_function_optimization)."
+  },
+  {
+    "line": 2166,
+    "recordId": "databricks",
+    "citation": "[Databricks ai_query SQL function](https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_query)."
+  },
+  {
+    "line": 2167,
+    "recordId": "ref-b01de60e31ab",
+    "citation": "[Databricks Mosaic AI Model Serving](https://docs.databricks.com/aws/en/machine-learning/model-serving/)."
+  },
+  {
+    "line": 2168,
+    "recordId": "ref-5c1373c4af9c",
+    "citation": "[Databricks Vector Search](https://docs.databricks.com/aws/en/generative-ai/vector-search)."
+  }
+]

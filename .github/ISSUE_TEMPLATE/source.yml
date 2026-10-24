@@ -1,0 +1,21 @@
+name: Suggest a source
+description: Propose a paper, benchmark, software resource or documentation source.
+body:
+  - type: textarea
+    id: source
+    attributes:
+      label: Primary source URL
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why is this relevant?
+    validations:
+      required: true
+  - type: textarea
+    id: relationship
+    attributes:
+      label: Author or vendor relationship (optional)
+    validations:
+      required: false

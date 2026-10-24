@@ -1,0 +1,3481 @@
+[
+  {
+    "id": "lotus",
+    "name": "LOTUS",
+    "title": "Semantic Operators: A Declarative Model for Rich, AI-based Data Processing",
+    "year": 2024,
+    "category": "Research engine",
+    "interface": "Relational operators",
+    "summary": "Natural-language specifications for filtering, joining, sorting and aggregation, with optimized implementations evaluated against a reference algorithm.",
+    "url": "https://arxiv.org/abs/2407.11418",
+    "tags": [
+      "Semantic operators",
+      "Quality constraints",
+      "Cascades"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "Accuracy guarantees are relative to a chosen gold algorithm; they are not guarantees of factual correctness.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2010,
+        "section": "Core SQPE papers",
+        "citation": "[Semantic Operators: A Declarative Model for Rich, AI-based Analytics Over Text Data](https://arxiv.org/abs/2407.11418). Liana Patel, Siddharth Jha, Parth Asawa, Melissa Pan, Carlos Guestrin, Matei Zaharia. 2024."
+      }
+    ]
+  },
+  {
+    "id": "uqe",
+    "name": "UQE",
+    "title": "UQE: A Query Engine for Unstructured Databases",
+    "year": 2024,
+    "category": "Research engine",
+    "interface": "UQL / SQL dialect",
+    "summary": "A SQL-like language for reasoning over images, conversations and reviews, combining foundation models with sampling and execution optimization.",
+    "url": "https://arxiv.org/abs/2407.09522",
+    "tags": [
+      "SQL",
+      "Multimodal",
+      "Sampling"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "Published evaluation covers selected query types and datasets; capabilities should not be generalized to arbitrary analytics.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2011,
+        "section": "Core SQPE papers",
+        "citation": "[UQE: A Query Engine for Unstructured Databases](https://arxiv.org/abs/2407.09522). Hanjun Dai, Bethany Yixin Wang, Xingchen Wan, Bo Dai, Sherry Yang, Azade Nova, Pengcheng Yin, Phitchaya Mangpo Phothilimthana, Charles Sutton, Dale Schuurmans. 2024."
+      }
+    ]
+  },
+  {
+    "id": "palimpzest",
+    "name": "Palimpzest",
+    "title": "A Declarative System for Optimizing AI Workloads",
+    "year": 2024,
+    "category": "Research engine",
+    "interface": "Declarative pipelines",
+    "summary": "Turns declarative AI analytics into executable plans that trade off output quality, runtime and model cost.",
+    "url": "https://arxiv.org/abs/2405.14696",
+    "tags": [
+      "Pipelines",
+      "Model selection",
+      "Cost models"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "This record describes the 2024 prototype; it is not a specification of every capability in the current project.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2012,
+        "section": "Core SQPE papers",
+        "citation": "[A Declarative System for Optimizing AI Workloads](https://arxiv.org/abs/2405.14696). Chunwei Liu, Matthew Russo, Michael Cafarella, Lei Cao, Peter Baille Chen, Zui Chen, Michael Franklin, Tim Kraska, Samuel Madden, Gerardo Vitagliano. 2024."
+      }
+    ]
+  },
+  {
+    "id": "docetl",
+    "name": "DocETL",
+    "title": "DocETL: Agentic Query Rewriting and Evaluation for Complex Document Processing",
+    "year": 2024,
+    "category": "Research engine",
+    "interface": "Declarative pipelines",
+    "summary": "Rewrites complex document workflows by decomposing tasks and data, using agents to propose and evaluate better execution plans.",
+    "url": "https://arxiv.org/abs/2410.12189",
+    "tags": [
+      "Documents",
+      "Rewriting",
+      "Evaluation"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "Agent-generated validation and reported accuracy gains depend on the task and evaluation design.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2013,
+        "section": "Core SQPE papers",
+        "citation": "[DocETL: Agentic Query Rewriting and Evaluation for Complex Document Processing](https://arxiv.org/abs/2410.12189). Shreya Shankar, Tristan Chambers, Tarak Shah, Aditya G. Parameswaran, Eugene Wu. 2024."
+      }
+    ]
+  },
+  {
+    "id": "suql",
+    "name": "SUQL",
+    "title": "SUQL: Conversational Search over Structured and Unstructured Data with Large Language Models",
+    "year": 2023,
+    "category": "Research engine",
+    "interface": "SQL extension",
+    "summary": "Composes structured queries with free-text answering and summarization, supporting conversational access to hybrid knowledge sources.",
+    "url": "https://arxiv.org/abs/2311.09818",
+    "tags": [
+      "SQL",
+      "Hybrid data",
+      "Conversational search"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "The paper studies hybrid access and semantic parsing; it is not a broad benchmark of semantic engine optimization.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2144,
+        "section": "Hybrid query and neural-symbolic systems",
+        "citation": "[SUQL: Conversational Search over Structured and Unstructured Data with Large Language Models](https://arxiv.org/abs/2311.09818). Shicheng Liu et al. 2023."
+      }
+    ]
+  },
+  {
+    "id": "sembench",
+    "name": "SemBench",
+    "title": "SemBench: A Benchmark for Semantic Query Processing Engines",
+    "year": 2025,
+    "category": "Benchmark",
+    "interface": "Benchmark workloads",
+    "summary": "Evaluates semantic engines across text, image and audio scenarios using filters, joins, mappings, ranking and classification.",
+    "url": "https://arxiv.org/abs/2511.01716",
+    "tags": [
+      "Multimodal",
+      "Evaluation",
+      "End-to-end"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "Results are a snapshot of evolving systems, models and configurations; they do not establish a permanent leaderboard.",
+    "benchmarkGroup": "engine",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2016,
+        "section": "Core SQPE papers",
+        "citation": "[SemBench: A Benchmark for Semantic Query Processing Engines](https://arxiv.org/abs/2511.01716). Jiale Lao et al. 2025."
+      }
+    ]
+  },
+  {
+    "id": "lrobench",
+    "name": "LROBench",
+    "title": "Large Language Model-Enhanced Relational Operators: Taxonomy, Benchmark, and Analysis",
+    "year": 2026,
+    "category": "Benchmark",
+    "interface": "Relational operator workloads",
+    "summary": "Organizes Select, Match, Impute, Cluster and Order operators into single-operator and multi-operator workloads over relational databases.",
+    "url": "https://arxiv.org/abs/2603.02537",
+    "tags": [
+      "Taxonomy",
+      "Evaluation",
+      "Relational operators"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "Operator-level findings depend on model, implementation and workload; the benchmark complements rather than replaces end-to-end evaluation.",
+    "benchmarkGroup": "engine",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2017,
+        "section": "Core SQPE papers",
+        "citation": "[Large Language Model-Enhanced Relational Operators: Taxonomy, Benchmark, and Analysis / LROBench](https://arxiv.org/abs/2603.02537). Yunxiang Su, Tianjing Zeng, Zhongjun Ding, Yin Lin, Rong Zhu, Zhewei Wei, Bolin Ding, Jingren Zhou. 2026."
+      }
+    ]
+  },
+  {
+    "id": "sema",
+    "name": "Sema",
+    "title": "Sema: A High-performance System for LLM-based Semantic Query Processing",
+    "year": 2026,
+    "category": "Research engine",
+    "interface": "SemaSQL / DuckDB",
+    "summary": "Integrates semantic expressions into SQL and combines logical rewrites with adaptive reordering, fusion and prompt batching.",
+    "url": "https://arxiv.org/abs/2603.11622",
+    "tags": [
+      "SQL",
+      "DuckDB",
+      "Adaptive execution"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "Preprint results cover 20 queries and selected baselines; no independent reproduction is claimed here.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2022,
+        "section": "Core SQPE papers",
+        "citation": "[Sema: A High-performance System for LLM-based Semantic Query Processing](https://arxiv.org/abs/2603.11622). Kangkang Qi et al. 2026."
+      }
+    ]
+  },
+  {
+    "id": "nousdb",
+    "name": "NousDB",
+    "title": "NousDB - A Fast Query Engine for Semantic Analytics",
+    "year": 2026,
+    "category": "Research engine",
+    "interface": "Semantic relational algebra",
+    "summary": "A DataFusion-based engine using semantic algebra, token histograms and context-aware batching to optimize AI analytics.",
+    "url": "https://arxiv.org/abs/2610.28551",
+    "tags": [
+      "DataFusion",
+      "Batching",
+      "Cost models"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "October 2026 preprint. Batching guarantees have specific statistical assumptions; reported speedups are workload-specific.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2005,
+        "section": "Core SQPE papers",
+        "citation": "[NousDB - A Fast Query Engine for Semantic Analytics](https://arxiv.org/abs/2610.28551). Christos Tsapelas, Georgia Koutrika, Yannis Ioannidis. arXiv:2610.28551, 2026. Version 1 requested; v2 was posted October 21, 2026."
+      }
+    ]
+  },
+  {
+    "id": "jevdb",
+    "name": "JEVDB",
+    "title": "Prune First, Decide Fast: Scalable Semantic Query Processing with JEVDB",
+    "year": 2026,
+    "category": "Research engine",
+    "interface": "SQL / typed decisions",
+    "summary": "Uses decision models for semantic operations, escalates uncertain cases to generative models and prunes semantic-join candidates.",
+    "url": "https://arxiv.org/abs/2610.02046",
+    "tags": [
+      "Semantic joins",
+      "Cascades",
+      "Candidate pruning"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "October 2026 preprint. Necessary-condition screening and evaluated decision models determine the scope of pruning claims.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2006,
+        "section": "Core SQPE papers",
+        "citation": "[Prune First, Decide Fast: Scalable Semantic Query Processing with JEVDB](https://arxiv.org/abs/2610.02046). Zhengle Wang, Hanxu Yan, Fuheng Zhao, Chunwei Liu. arXiv:2610.02046, 2026."
+      }
+    ]
+  },
+  {
+    "id": "semviews",
+    "name": "SemViews",
+    "title": "Semantic Views: Certified Reuse of LLM Labels Across Semantic Queries",
+    "year": 2026,
+    "category": "Optimization",
+    "interface": "Semantic filter",
+    "summary": "Reuses prior query labels as ranking signals and applies fresh stratified oracle sampling to certify filter precision and recall.",
+    "url": "https://arxiv.org/abs/2610.12768",
+    "tags": [
+      "Reuse",
+      "Quality constraints",
+      "Sampling"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "October 2026 preprint. Guarantees concern agreement with an oracle under the stated sampling assumptions, not human truth.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2007,
+        "section": "Core SQPE papers",
+        "citation": "[Semantic Views: Certified Reuse of LLM Labels Across Semantic Queries](https://arxiv.org/abs/2610.12768). Oktie Hassanzadeh, Dharmashankar Subramanian. arXiv:2610.12768, 2026. [Code/data](https://github.com/semviews/lotus-semviews)."
+      }
+    ]
+  },
+  {
+    "id": "run-to-run-variance",
+    "name": "Same Query, Different Answer",
+    "title": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
+    "year": 2026,
+    "category": "Evaluation study",
+    "interface": "Repeated benchmark executions",
+    "summary": "Studies how repeated model decisions propagate into changing query answers and proposes reporting practices for reproducible evaluation.",
+    "url": "https://arxiv.org/abs/2610.13823",
+    "tags": [
+      "Reproducibility",
+      "Evaluation",
+      "Nondeterminism"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "October 2026 preprint. This is an evaluation study rather than a new engine; findings concern the tested models and workloads.",
+    "benchmarkGroup": "methodology",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2123,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing](https://arxiv.org/abs/2610.13823). Oktie Hassanzadeh, Dharmashankar Subramanian. arXiv:2610.13823, 2026. [Code/data](https://github.com/semviews/sqp-variance-study)."
+      }
+    ]
+  },
+  {
+    "id": "sembaker",
+    "name": "SemBaker",
+    "title": "From Interpretation to Compilation: A Compilation-Based Execution Engine for Semantic Operator Systems",
+    "year": 2026,
+    "category": "Optimization",
+    "interface": "Execution plugin",
+    "summary": "Compiles suitable semantic operations into local Python functions, routing between compiled and native execution using cost estimates.",
+    "url": "https://arxiv.org/abs/2608.06677",
+    "tags": [
+      "Compilation",
+      "Pipelines",
+      "Cost models"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "Compilation applies to selected operators; generated code is not a universal substitute for semantic model inference.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2074,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[From Interpretation to Compilation: A Compilation-Based Execution Engine for Semantic Operator Systems (SemBaker)](https://arxiv.org/abs/2608.06677). Wenkai Dong, Yifan Wang. arXiv:2608.06677, 2026. [Code](https://github.com/iDB-Research-Group/SemBaker)."
+      }
+    ]
+  },
+  {
+    "id": "kalypso",
+    "name": "Kalypso",
+    "title": "Kalypso: Relational LLM Serving",
+    "year": 2026,
+    "category": "Optimization",
+    "interface": "Query-plan serving API",
+    "summary": "Makes model serving aware of semantic operator dependencies, pipelining tuples to reuse KV-cache state under memory constraints.",
+    "url": "https://arxiv.org/abs/2607.23815",
+    "tags": [
+      "Serving",
+      "KV cache",
+      "Scheduling"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "A serving substrate rather than a complete user-facing query engine; benefits depend on cache reuse and workload structure.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2078,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[Kalypso: Relational LLM Serving](https://arxiv.org/abs/2607.23815). Hojae Son, Md Ashraful Islam, Huy Gia Cao, Hui Guan, Marco Serafini. 2026."
+      }
+    ]
+  },
+  {
+    "id": "flockmtl",
+    "name": "FlockMTL",
+    "title": "Beyond Quacking: Deep Integration of Language Models and RAG into DuckDB",
+    "year": 2025,
+    "category": "Research engine",
+    "interface": "SQL / DuckDB extension",
+    "summary": "Adds model-backed scalar and aggregate functions, with PROMPT and MODEL schema objects plus batching and caching optimizations.",
+    "url": "https://arxiv.org/abs/2504.01157",
+    "tags": [
+      "SQL",
+      "DuckDB",
+      "RAG"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "The cited publication is a short system paper; consult project documentation for deployment and supported models.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2023,
+        "section": "Core SQPE papers",
+        "citation": "[Beyond Quacking: Deep Integration of Language Models and RAG into DuckDB](https://arxiv.org/abs/2504.01157). Anas Dorbani, Sunny Yasser, Jimmy Lin, Amine Mhedhbi. 2025."
+      }
+    ]
+  },
+  {
+    "id": "ipdb",
+    "name": "iPDB",
+    "title": "iPDB -- Optimizing Semantic SQL Queries",
+    "year": 2026,
+    "category": "Research engine",
+    "interface": "Extended SQL",
+    "summary": "Supports in-database ML and LLM inference through a relational predict operator and optimizations across semantic SQL operations.",
+    "url": "https://arxiv.org/abs/2601.16432",
+    "tags": [
+      "SQL",
+      "Inference",
+      "Query optimization"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "The current paper title differs from earlier citations. Performance comparisons apply to the evaluated configurations.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2042,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[iPDB: Optimizing SQL Queries with ML and LLM Predicates](https://arxiv.org/abs/2601.16432). Udesh Kumarasinghe, Tyler Liu, Chunwei Liu, Walid G. Aref. 2026."
+      }
+    ]
+  },
+  {
+    "id": "plop",
+    "name": "PLOP",
+    "title": "PLOP: Cost-Based Placement of Semantic Operators in Hybrid Query Plans",
+    "year": 2026,
+    "category": "Optimization",
+    "interface": "Hybrid query plans",
+    "summary": "Balances model-call cost against relational processing cost when choosing semantic operator placement in mixed query plans.",
+    "url": "https://arxiv.org/abs/2604.09944",
+    "tags": [
+      "Operator placement",
+      "Cost models",
+      "Semantic joins"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "The current record is titled PLOP, not Horrila. Rewrites and cost analysis rely on the paper's stated semantics and caching assumptions.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2021,
+        "section": "Core SQPE papers",
+        "citation": "[Horrila: Cost-Based Placement of Semantic Operators in Hybrid Query Plans](https://arxiv.org/abs/2604.09944). Qiuyang Mang et al. 2026."
+      }
+    ]
+  },
+  {
+    "id": "relational-llm-optimization",
+    "name": "Relational LLM optimization",
+    "title": "Optimizing LLM Queries in Relational Data Analytics Workloads",
+    "year": 2024,
+    "category": "Optimization",
+    "interface": "Relational analytics",
+    "summary": "Reorders table rows and fields to increase shared prompt prefixes and improve KV-cache reuse during batch model inference.",
+    "url": "https://arxiv.org/abs/2403.05821",
+    "tags": [
+      "KV cache",
+      "Serving",
+      "Batch analytics"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "Reported cost savings depend on model-serving behavior and provider pricing; this catalog does not repeat them as current estimates.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2024,
+        "section": "Core SQPE papers",
+        "citation": "[Optimizing LLM Queries in Relational Workloads](https://arxiv.org/abs/2403.05821). Shu Liu et al. 2024."
+      }
+    ]
+  },
+  {
+    "id": "llm-order-by",
+    "name": "LLM ORDER BY",
+    "title": "Access Paths for Efficient Ordering with Large Language Models",
+    "year": 2025,
+    "category": "Optimization",
+    "interface": "Semantic ranking operator",
+    "summary": "Studies physical implementations of semantic ordering and a budget-aware optimizer that chooses among ranking access paths.",
+    "url": "https://arxiv.org/abs/2509.00303",
+    "tags": [
+      "Ranking",
+      "Top-k",
+      "Access paths"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "No single sorting implementation dominates all evaluated datasets; quality assessment includes model-based judging.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2036,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Access Paths for Efficient Ordering with Large Language Models](https://arxiv.org/abs/2509.00303). Fuheng Zhao, Jiayue Chen, Yiming Pan, Tahseen Rabbani, Sohaib, Divyakant Agrawal, Amr El Abbadi, Paritosh Aggarwal, Anupam Datta, Dimitris Tsirogiannis. 2025/2026."
+      }
+    ]
+  },
+  {
+    "id": "larch",
+    "name": "Larch",
+    "title": "Larch: Learned Query Optimization for Semantic Predicates",
+    "year": 2026,
+    "category": "Optimization",
+    "interface": "AI SQL filters",
+    "summary": "Learns per-row evaluation orders for semantic predicates, using either a sequential decision policy or predicted selectivities.",
+    "url": "https://arxiv.org/abs/2606.07923",
+    "tags": [
+      "Filters",
+      "Learned optimization",
+      "Selectivity"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "The reported reductions concern tested workloads and baselines; training and runtime overhead should be considered in new deployments.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2031,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Larch: Learned Query Optimization for Semantic Predicates](https://arxiv.org/abs/2606.07923). Fuheng Zhao, Pawel Liskowski, Zihan Li, Benjamin Han, Puxuan Yu, Varich Boonsanong, Dimitris Tsirogiannis, Anupam Datta. 2026."
+      }
+    ]
+  },
+  {
+    "id": "fast-semantic-filtering",
+    "name": "Fast semantic filtering",
+    "title": "Fast LLM-Based Semantic Filtering: From a Unified Framework to an Adaptive Two-Phase Method",
+    "year": 2026,
+    "category": "Optimization",
+    "interface": "Semantic filter",
+    "summary": "Combines clustering and learned proxies adaptively, using token-aware representations and oracle confidence to reduce expensive filtering calls.",
+    "url": "https://arxiv.org/abs/2606.08090",
+    "tags": [
+      "Filters",
+      "Cascades",
+      "Proxy models"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "Empirical attainment of an accuracy target is not an unconditional guarantee; the oracle itself may be wrong.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2032,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Fast LLM-Based Semantic Filtering: From a Unified Framework to an Adaptive Two-Phase Method](https://arxiv.org/abs/2606.08090). Kyoungmin Kim, Martin Catheland, Anastasia Ailamaki. 2026."
+      }
+    ]
+  },
+  {
+    "id": "semjoin",
+    "name": "SemJoin",
+    "title": "SemJoin: Semantic Join Optimization",
+    "year": 2026,
+    "category": "Optimization",
+    "interface": "Semantic join",
+    "summary": "Uses an LLM advisor to route joins between clustering-based candidate pruning and classification into a shared label space.",
+    "url": "https://arxiv.org/abs/2606.29532",
+    "tags": [
+      "Semantic joins",
+      "Routing",
+      "Clustering"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "caveat": "Short preprint evaluated on three datasets; routing success on those workloads does not establish universal optimality.",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2033,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[SemJoin: Semantic Join Optimization](https://arxiv.org/abs/2606.29532). Christopher Gou, Aditya Banerjee, Jiaxuan Wang, Chunwei Liu. VLDB 2026 Workshop: NOVAS / arXiv 2026."
+      }
+    ]
+  },
+  {
+    "id": "uda-bench",
+    "name": "UDA-Bench",
+    "title": "Unstructured Data Analysis using LLMs: A Comprehensive Benchmark",
+    "year": 2025,
+    "category": "Benchmark",
+    "interface": "Document analytics / relational ground truth",
+    "benchmarkGroup": "engine",
+    "summary": "Evaluates unstructured-document analysis against manually annotated relational views. The arXiv v1 workload contains five datasets and 240 queries covering extraction, filtering, aggregation, joins, and combinations of operators.",
+    "tags": [
+      "Documents",
+      "Relational ground truth",
+      "End-to-end"
+    ],
+    "url": "https://arxiv.org/abs/2510.27119",
+    "caveat": "Ground truth is defined over selected schema attributes, so coverage does not extend to arbitrary open-ended document questions. Dataset counts differ between the cited arXiv version and repository descriptions; specify the artifact version when reporting results.",
+    "reviewNote": "Publication record and benchmark-construction sections reviewed. The workload evaluates accuracy, model cost, and latency. No experiments were rerun.",
+    "resources": [
+      {
+        "label": "Paper: benchmark construction",
+        "url": "https://arxiv.org/html/2510.27119v1#S3"
+      },
+      {
+        "label": "UDA-Bench repository",
+        "url": "https://github.com/Chandrika2527/UDA-Bench"
+      }
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2124,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[Unstructured Data Analysis using LLMs: A Comprehensive Benchmark (UDA-Bench)](https://arxiv.org/abs/2510.27119). Qiyan Deng et al. PVLDB 2026; preprint arXiv:2510.27119. [Code](https://github.com/Chandrika2527/UDA-Bench)."
+      }
+    ]
+  },
+  {
+    "id": "shelob",
+    "name": "Shelob",
+    "title": "Prune First, Decide Fast: Scalable Semantic Query Processing with JEVDB",
+    "year": 2026,
+    "category": "Benchmark",
+    "interface": "TPC-DS-derived semantic joins",
+    "benchmarkGroup": "engine",
+    "summary": "Extends TPC-DS-derived relations with return reports, issue bulletins, and release notes to study semantic-join scaling. The JEVDB paper evaluates five queries at XS, S, and M tiers.",
+    "tags": [
+      "Semantic joins",
+      "Scalability",
+      "TPC-DS"
+    ],
+    "url": "https://arxiv.org/abs/2610.02046",
+    "caveat": "Introduced and evaluated by the JEVDB authors. The full SF1 workload is larger than the measured tiers; its candidate count must not be presented as an executed comparison. Shelob is not an official TPC benchmark or an independent validation of JEVDB.",
+    "reviewNote": "Reviewed the experimental setup and Shelob evaluation sections of the JEVDB paper. The protocol reports answer F1, cost, latency, and timeout progress. No experiments were rerun.",
+    "resources": [
+      {
+        "label": "Shelob evaluation in the JEVDB paper",
+        "url": "https://arxiv.org/html/2610.02046v1#S4"
+      }
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "profile": true,
+    "sourceType": "Benchmark",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [],
+    "parentRecord": "jevdb"
+  },
+  {
+    "id": "spider2-aifunc",
+    "name": "Spider 2.0-AIFunc",
+    "title": "Spider 2.0-AIFunc: Extending Real-World Text-to-SQL to AI-Native SQL Workflows",
+    "year": 2026,
+    "category": "Benchmark",
+    "interface": "Natural language to SQL with AI functions",
+    "benchmarkGroup": "generation",
+    "summary": "Tests whether models generate Snowflake SQL that composes relational operations with AI functions for classification, filtering, sentiment analysis, extraction, similarity, and aggregation.",
+    "tags": [
+      "Query generation",
+      "SQL",
+      "AI functions"
+    ],
+    "url": "https://arxiv.org/abs/2607.06229",
+    "caveat": "Evaluates SQL generation, not engine execution performance. The paper reports 465 instances; the public task release contains 393. Gold SQL and database resources are not bundled, and official scoring requires additional access.",
+    "resources": [
+      {
+        "label": "Benchmark repository and access requirements",
+        "url": "https://github.com/Leolty/Spider2-AIFunc"
+      },
+      {
+        "label": "Released task dataset",
+        "url": "https://huggingface.co/datasets/tianyang/spider2-aifunc"
+      }
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2018,
+        "section": "Core SQPE papers",
+        "citation": "[Spider 2.0-AIFunc: Extending Real-World Text-to-SQL to AI-Native SQL Workflows](https://arxiv.org/abs/2607.06229). Tianyang Liu, Canwen Xu, Fangyu Lei, Nikki Lijing Kuang, Jixuan Chen, Tao Yu, Julian McAuley, Zhewei Yao, Yuxiong He. 2026."
+      },
+      {
+        "document": "state-of-the-art.md",
+        "line": 2126,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[Spider 2.0-AIFunc: Extending Real-World Text-to-SQL to AI-Native SQL Workflows](https://arxiv.org/abs/2607.06229). Tianyang Liu, Canwen Xu, Fangyu Lei, Nikki Lijing Kuang, Jixuan Chen, Tao Yu, Julian McAuley, Zhewei Yao, Yuxiong He. 2026."
+      }
+    ]
+  },
+  {
+    "id": "vectorsqlbench",
+    "name": "VectorSQLBench",
+    "title": "Text2VectorSQL: Towards a Unified Interface for Vector Search and SQL Queries",
+    "year": 2025,
+    "category": "Benchmark",
+    "interface": "Natural language to SQL with vector search",
+    "benchmarkGroup": "generation",
+    "summary": "Benchmarks generation of queries combining relational operations and vector search, spanning three database backends and four source collections. Examines result omissions when SQL filters interact with vector retrieval.",
+    "tags": [
+      "Query generation",
+      "Vector search",
+      "Hybrid data"
+    ],
+    "url": "https://arxiv.org/abs/2506.23071",
+    "caveat": "An adjacent query-generation benchmark. Vector similarity is a retrieval operation and does not establish the quality or efficiency of arbitrary model-backed filters, joins, or aggregations.",
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": []
+  },
+  {
+    "id": "hybrid-deep-research",
+    "name": "HybridDeepResearch",
+    "title": "Benchmarking Hybrid Deep Research Across Database Querying and Web Search",
+    "year": 2026,
+    "category": "Benchmark",
+    "interface": "Agents combining SQL and web search",
+    "benchmarkGroup": "adjacent",
+    "summary": "Evaluates agents on 380 tasks requiring both database queries and web evidence. Tasks exercise database-to-search, search-to-database, and parallel reasoning, with an emphasis on preserving constraints across tools.",
+    "tags": [
+      "Agents",
+      "SQL",
+      "Web search"
+    ],
+    "url": "https://arxiv.org/abs/2609.09410",
+    "caveat": "Measures agent coordination and final-answer correctness across tools. It does not isolate semantic operator execution or query optimizer performance, and web evidence can change over time.",
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2020,
+        "section": "Core SQPE papers",
+        "citation": "[Benchmarking Hybrid Deep Research Across Database Querying and Web Search](https://arxiv.org/abs/2609.09410). Ruofan Wu, Peiran Xu, Xiaolong Li, Fan Shu, Soyoung Yoon, Yite Wang, Xiaodong Yu, Boyi Liu, Feng Yan, Debiao Li, Yuxiong He, Zhewei Yao. 2026."
+      },
+      {
+        "document": "state-of-the-art.md",
+        "line": 2128,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[Benchmarking Hybrid Deep Research Across Database Querying and Web Search](https://arxiv.org/abs/2609.09410). Ruofan Wu, Peiran Xu, Xiaolong Li, Fan Shu, Soyoung Yoon, Yite Wang, Xiaodong Yu, Boyi Liu, Feng Yan, Debiao Li, Yuxiong He, Zhewei Yao. 2026."
+      }
+    ]
+  },
+  {
+    "id": "stochastic-shift",
+    "name": "The Stochastic Shift",
+    "title": "The Stochastic Shift: A New Evaluation Paradigm for Text-to-SQL with AI Operators",
+    "year": 2026,
+    "category": "Evaluation study",
+    "interface": "Evaluation of SQL containing AI operators",
+    "benchmarkGroup": "methodology",
+    "summary": "Studies failures of exact-result scoring for SQL with stochastic AI operators. Proposes evaluating relational logic and semantic operations separately, with experiments on BigQuery and ThalamusDB.",
+    "tags": [
+      "Evaluation",
+      "Query generation",
+      "Nondeterminism"
+    ],
+    "url": "https://arxiv.org/abs/2609.21133",
+    "caveat": "An evaluation framework rather than a general-purpose workload benchmark. Reported validation accuracy applies to the tested query sets and judging protocol, not all SQL translations or semantic predicates.",
+    "verifiedDate": "2026-10-23",
+    "evidence": "Primary source reviewed",
+    "profile": true,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2019,
+        "section": "Core SQPE papers",
+        "citation": "[The Stochastic Shift: A New Evaluation Paradigm for Text-to-SQL with AI Operators](https://arxiv.org/abs/2609.21133). Tarfah Alrashed, Fatma Ozcan, Per Jacobsson, Tal Neiman, Xianshun Chen. 2026."
+      },
+      {
+        "document": "state-of-the-art.md",
+        "line": 2127,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[The Stochastic Shift: A New Evaluation Paradigm for Text-to-SQL with AI Operators](https://arxiv.org/abs/2609.21133). Tarfah Alrashed, Fatma Ozcan, Per Jacobsson, Tal Neiman, Xianshun Chen. 2026."
+      }
+    ]
+  },
+  {
+    "id": "bigquery",
+    "name": "BigQuery",
+    "title": "BigQuery generative AI functions",
+    "year": 2026,
+    "category": "Industry platform",
+    "interface": "GoogleSQL",
+    "summary": "Managed AI functions bring generation, filtering, classification and scoring into SQL over structured and unstructured data.",
+    "url": "https://docs.cloud.google.com/bigquery/docs/generative-ai-overview",
+    "tags": [
+      "SQL",
+      "Multimodal",
+      "Managed inference"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Vendor documentation reviewed",
+    "caveat": "Function availability, supported models, regions and billing vary. Product documentation does not establish comparative engine performance.",
+    "profile": true,
+    "sourceType": "Product documentation",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Documentation checked",
+    "aliases": [],
+    "provenance": []
+  },
+  {
+    "id": "snowflake",
+    "name": "Snowflake Cortex",
+    "title": "Snowflake Cortex AI Functions / AISQL",
+    "year": 2026,
+    "category": "Industry platform",
+    "interface": "SQL",
+    "summary": "SQL-callable AI functions support classification, filtering, extraction, summarization and aggregation inside the Snowflake platform.",
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/aisql",
+    "tags": [
+      "SQL",
+      "Managed inference",
+      "Semantic operators"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Vendor documentation reviewed",
+    "caveat": "Check per-function documentation for model and regional support, pricing and release status. A product feature is not an independent benchmark.",
+    "profile": true,
+    "sourceType": "Product documentation",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Documentation checked",
+    "aliases": [],
+    "provenance": []
+  },
+  {
+    "id": "databricks",
+    "name": "Databricks",
+    "title": "Databricks ai_query",
+    "year": 2026,
+    "category": "Industry platform",
+    "interface": "Databricks SQL",
+    "summary": "The ai_query function invokes a model-serving endpoint from SQL and parses the response for real-time or batch inference workflows.",
+    "url": "https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_query",
+    "tags": [
+      "SQL",
+      "Model serving",
+      "Batch analytics"
+    ],
+    "verifiedDate": "2026-10-23",
+    "evidence": "Vendor documentation reviewed",
+    "caveat": "Requires a supported runtime or SQL environment, region and endpoint permissions; not available on Databricks SQL Classic. No optimizer equivalence with research engines is implied.",
+    "profile": true,
+    "sourceType": "Product documentation",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Documentation checked",
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2166,
+        "section": "Product documentation and platform references",
+        "citation": "[Databricks ai_query SQL function](https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_query)."
+      }
+    ]
+  },
+  {
+    "id": "ref-e4aa4c5754b8",
+    "name": "Demo of SemWeave: Semantic Common Expressions for LLM-powered Query Processing",
+    "title": "Demo of SemWeave: Semantic Common Expressions for LLM-powered Query Processing",
+    "url": "https://doi.org/10.1145/3788853.3801593",
+    "year": 2026,
+    "category": "Core SQPE papers",
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2008,
+        "section": "Core SQPE papers",
+        "citation": "[Demo of SemWeave: Semantic Common Expressions for LLM-powered Query Processing](https://doi.org/10.1145/3788853.3801593). Md. Tareq Mahmood, Venkatesh Emani, Hangdong Zhao, Shivaram Venkataraman. SIGMOD Companion, 2026."
+      }
+    ]
+  },
+  {
+    "id": "ref-0dd51ec5b206",
+    "name": "100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models",
+    "title": "100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models",
+    "url": "https://doi.org/10.1145/3802002",
+    "year": 2026,
+    "category": "Core SQPE papers",
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [
+      "https://arxiv.org/abs/2603.15970"
+    ],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2014,
+        "section": "Core SQPE papers",
+        "citation": "[100x Cost & Latency Reduction: Performance Analysis of AI Query Approximation using Lightweight Proxy Models](https://doi.org/10.1145/3802002). Yeounoh Chung, Rushabh Desai, Jian He, Yu Xiao, Thibaud Hottelier, Yves-Laurent Kom Samo, Pushkar Khadilkar, Xianshun Chen, Sam Idicula, Fatma Özcan, Alon Halevy, Yannis Papakonstantinou. Proc. ACM Manag. Data / SIGMOD 2026. See also [arXiv:2603.15970](https://arxiv.org/abs/2603.15970)."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2511-07663",
+    "name": "Cortex AISQL: A Production SQL Engine for Unstructured Data",
+    "title": "Cortex AISQL: A Production SQL Engine for Unstructured Data",
+    "url": "https://arxiv.org/abs/2511.07663",
+    "year": 2025,
+    "category": "Core SQPE papers",
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2015,
+        "section": "Core SQPE papers",
+        "citation": "[Cortex AISQL: A Production SQL Engine for Unstructured Data](https://arxiv.org/abs/2511.07663). Paritosh Aggarwal et al. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2602-01701",
+    "name": "Meta Engine: A Unified Semantic Query Engine on Heterogeneous LLM-Based Query Systems",
+    "title": "Meta Engine: A Unified Semantic Query Engine on Heterogeneous LLM-Based Query Systems",
+    "url": "https://arxiv.org/abs/2602.01701",
+    "year": 2026,
+    "category": "Core SQPE papers",
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2025,
+        "section": "Core SQPE papers",
+        "citation": "[Meta Engine: A Unified Semantic Query Engine on Heterogeneous LLM-Based Query Systems](https://arxiv.org/abs/2602.01701). Ruyu Li et al. 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2606-29151",
+    "name": "CADENZA: Compiling Natural-Language Intent into Task-Specific Operator DAGs for Semantic Query Processing",
+    "title": "CADENZA: Compiling Natural-Language Intent into Task-Specific Operator DAGs for Semantic Query Processing",
+    "url": "https://arxiv.org/abs/2606.29151",
+    "year": 2027,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2030,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[CADENZA: Compiling Natural-Language Intent into Task-Specific Operator DAGs for Semantic Query Processing](https://arxiv.org/abs/2606.29151). Jaehyun Ha, Yongjoo Park, Wook-Shin Han. SIGMOD 2027 / arXiv 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2512-05399",
+    "name": "Featurized-Decomposition Join: Low-Cost Semantic Joins with Guarantees",
+    "title": "Featurized-Decomposition Join: Low-Cost Semantic Joins with Guarantees",
+    "url": "https://arxiv.org/abs/2512.05399",
+    "year": 2025,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2034,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Featurized-Decomposition Join: Low-Cost Semantic Joins with Guarantees](https://arxiv.org/abs/2512.05399). Sepanta Zeighami, Shreya Shankar, Aditya Parameswaran. 2025."
+      }
+    ]
+  },
+  {
+    "id": "ref-43d0f45c6e32",
+    "name": "Accelerating Approximate Analytical Join Queries over Unstructured Data with Statistical Guarantees",
+    "title": "Accelerating Approximate Analytical Join Queries over Unstructured Data with Statistical Guarantees",
+    "url": "https://doi.org/10.1145/3802004",
+    "year": 2026,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2035,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Accelerating Approximate Analytical Join Queries over Unstructured Data with Statistical Guarantees](https://doi.org/10.1145/3802004). Yuxuan Zhu, Tengjun Jin, Chenghao Mo, Daniel Kang. Proc. ACM Manag. Data / SIGMOD 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2603-17223",
+    "name": "ListK: Semantic ORDER BY and LIMIT K with Listwise Prompting",
+    "title": "ListK: Semantic ORDER BY and LIMIT K with Listwise Prompting",
+    "url": "https://arxiv.org/abs/2603.17223",
+    "year": 2026,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2037,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[ListK: Semantic ORDER BY and LIMIT K with Listwise Prompting](https://arxiv.org/abs/2603.17223). Jason Shin, Jiwon Chang, Fatemeh Nargesian. 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2503-20119",
+    "name": "Approximating Opaque Top-k Queries",
+    "title": "Approximating Opaque Top-k Queries",
+    "url": "https://arxiv.org/abs/2503.20119",
+    "year": 2025,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2038,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Approximating Opaque Top-k Queries](https://arxiv.org/abs/2503.20119). Jiwon Chang, Fatemeh Nargesian. Proc. ACM Manag. Data 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2502-18470",
+    "name": "RankLLM: A Framework for Ranking with Large Language Models",
+    "title": "RankLLM: A Framework for Ranking with Large Language Models",
+    "url": "https://arxiv.org/abs/2502.18470",
+    "year": 2025,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2039,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[RankLLM: A Framework for Ranking with Large Language Models](https://arxiv.org/abs/2502.18470). Shervin Sharifymoghaddam et al. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2312-02724",
+    "name": "RankZephyr: Effective and Robust Zero-Shot Listwise Reranking is a Breeze!",
+    "title": "RankZephyr: Effective and Robust Zero-Shot Listwise Reranking is a Breeze!",
+    "url": "https://arxiv.org/abs/2312.02724",
+    "year": 2023,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2040,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[RankZephyr: Effective and Robust Zero-Shot Listwise Reranking is a Breeze!](https://arxiv.org/abs/2312.02724). Ronak Pradeep, Sahel Sharifymoghaddam, Jimmy Lin. 2023."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2607-00254",
+    "name": "Query-Centric Optimization of AI Workflows via Approximate Query Processing and Proxy Models",
+    "title": "Query-Centric Optimization of AI Workflows via Approximate Query Processing and Proxy Models",
+    "url": "https://arxiv.org/abs/2607.00254",
+    "year": 2026,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2041,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Query-Centric Optimization of AI Workflows via Approximate Query Processing and Proxy Models](https://arxiv.org/abs/2607.00254). Huayi Wang, Jun Xu, Gromit Yeuk-Yin Chan. 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2403-14902",
+    "name": "Aero/Hydro: Adaptive Query Processing of ML Queries",
+    "title": "Aero/Hydro: Adaptive Query Processing of ML Queries",
+    "url": "https://arxiv.org/abs/2403.14902",
+    "year": 2024,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2043,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Aero/Hydro: Adaptive Query Processing of ML Queries](https://arxiv.org/abs/2403.14902). Gaurav Tarlok Kakkar, Jiashen Cao, Aubhro Sengupta, Joy Arulraj, Hyesoon Kim. 2024/2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-1911-00231",
+    "name": "Extending Relational Query Processing with ML Inference",
+    "title": "Extending Relational Query Processing with ML Inference",
+    "url": "https://arxiv.org/abs/1911.00231",
+    "year": 1911,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2044,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Extending Relational Query Processing with ML Inference](https://arxiv.org/abs/1911.00231). Konstantinos Karanasos, Matteo Interlandi, Doris Xin, Fotis Psallidas, Rathijit Sen, Kwanghyun Park, Ivan Popivanov, Supun Nakandal, Subru Krishnan, Markus Weimer, Yuan Yu, Raghu Ramakrishnan, Carlo Curino. CIDR 2020."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2312-17355",
+    "name": "The Duck's Brain: Training and Inference of Neural Networks in Modern Database Engines",
+    "title": "The Duck's Brain: Training and Inference of Neural Networks in Modern Database Engines",
+    "url": "https://arxiv.org/abs/2312.17355",
+    "year": 2023,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2045,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[The Duck's Brain: Training and Inference of Neural Networks in Modern Database Engines](https://arxiv.org/abs/2312.17355). Maximilian E. Schule, Thomas Neumann, Alfons Kemper. 2023/2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-a7c381b5e4ce",
+    "name": "MADlib: The MADlib Analytics Library, or MAD Skills, the SQL",
+    "title": "MADlib: The MADlib Analytics Library, or MAD Skills, the SQL",
+    "url": "https://doi.org/10.14778/2367502.2367510",
+    "year": 2012,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2046,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[MADlib: The MADlib Analytics Library, or MAD Skills, the SQL](https://doi.org/10.14778/2367502.2367510). Joseph M. Hellerstein, Christopher Re, Florian Schoppmann, Daisy Zhe Wang, Eugene Fratkin, Aleksander Gorajek, Kee Siong Ng, Caleb Welton, Xixuan Feng, Kun Li, Arun Kumar. PVLDB 2012."
+      }
+    ]
+  },
+  {
+    "id": "ref-3e4a67ac6d74",
+    "name": "DuckDB: an Embeddable Analytical Database",
+    "title": "DuckDB: an Embeddable Analytical Database",
+    "url": "https://doi.org/10.1145/3299869.3320212",
+    "year": 2019,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2047,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[DuckDB: an Embeddable Analytical Database](https://doi.org/10.1145/3299869.3320212). Mark Raasveldt, Hannes Mühleisen. SIGMOD 2019."
+      }
+    ]
+  },
+  {
+    "id": "ref-84654a2d3434",
+    "name": "MonetDB/X100: Hyper-Pipelining Query Execution",
+    "title": "MonetDB/X100: Hyper-Pipelining Query Execution",
+    "url": "https://www.cidrdb.org/cidr2005/papers/P19.pdf",
+    "year": 2005,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2048,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[MonetDB/X100: Hyper-Pipelining Query Execution](https://www.cidrdb.org/cidr2005/papers/P19.pdf). Peter Boncz, Marcin Zukowski, Niels Nes. CIDR 2005."
+      }
+    ]
+  },
+  {
+    "id": "ref-3dff26b27bff",
+    "name": "BioDEX: Large-Scale Biomedical Adverse Drug Event Extraction for Real-World Pharmacovigilance",
+    "title": "BioDEX: Large-Scale Biomedical Adverse Drug Event Extraction for Real-World Pharmacovigilance",
+    "url": "https://doi.org/10.18653/v1/2023.findings-emnlp.896",
+    "year": 2023,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2049,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[BioDEX: Large-Scale Biomedical Adverse Drug Event Extraction for Real-World Pharmacovigilance](https://doi.org/10.18653/v1/2023.findings-emnlp.896). Karel D'Oosterlinck et al. Findings of EMNLP 2023."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2510-08489",
+    "name": "Implementing Semantic Join Operators Efficiently",
+    "title": "Implementing Semantic Join Operators Efficiently",
+    "url": "https://arxiv.org/abs/2510.08489",
+    "year": 2025,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2050,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Implementing Semantic Join Operators Efficiently](https://arxiv.org/abs/2510.08489). Immanuel Trummer. 2025. Also referred to above as the Adaptive Block Join / ABJ line of work."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2505-14661",
+    "name": "Abacus: A Cost-Based Optimizer for Semantic Operator Systems",
+    "title": "Abacus: A Cost-Based Optimizer for Semantic Operator Systems",
+    "url": "https://arxiv.org/abs/2505.14661",
+    "year": 2025,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2051,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Abacus: A Cost-Based Optimizer for Semantic Operator Systems](https://arxiv.org/abs/2505.14661). Konstantinos Chasialis, Yannis Foufoulas, Alkis Simitsis, Yannis Ioannidis, Samuel Madden, Michael Cafarella. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2507-06515",
+    "name": "Quest: Query Optimization in Unstructured Document Analysis",
+    "title": "Quest: Query Optimization in Unstructured Document Analysis",
+    "url": "https://arxiv.org/abs/2507.06515",
+    "year": 2025,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2052,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Quest: Query Optimization in Unstructured Document Analysis](https://arxiv.org/abs/2507.06515). Zhaoze Sun, Qiyan Deng, Chengliang Chai, Kaisen Jin, Xinyu Guo, Han Han, Ye Yuan, Guoren Wang, Lei Cao. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2509-12610",
+    "name": "ScaleDoc: Scaling LLM-based Predicates over Large Document Collections",
+    "title": "ScaleDoc: Scaling LLM-based Predicates over Large Document Collections",
+    "url": "https://arxiv.org/abs/2509.12610",
+    "year": 2025,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2053,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[ScaleDoc: Scaling LLM-based Predicates over Large Document Collections](https://arxiv.org/abs/2509.12610). Hengrui Zhang, Yulong Hui, Yihao Liu, Huanchen Zhang. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2603-04799",
+    "name": "Beyond Linear LLM Invocation: An Efficient and Effective Semantic Filter Paradigm",
+    "title": "Beyond Linear LLM Invocation: An Efficient and Effective Semantic Filter Paradigm",
+    "url": "https://arxiv.org/abs/2603.04799",
+    "year": 2026,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2054,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Beyond Linear LLM Invocation: An Efficient and Effective Semantic Filter Paradigm](https://arxiv.org/abs/2603.04799). Nan Hou, Kangfei Zhao, Jiadong Xie, Jeffrey Xu Yu. 2026."
+      }
+    ]
+  },
+  {
+    "id": "ref-21402d1d1aea",
+    "name": "Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees",
+    "title": "Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees",
+    "url": null,
+    "year": 2025,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2055,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees. Sepanta Zeighami, Shreya Shankar, Aditya Parameswaran. Proc. ACM Manag. Data 3(6), 2025. Cited in semantic filtering and join papers as BARGAIN-style cascade work."
+      }
+    ]
+  },
+  {
+    "id": "ref-92c7cd3291ab",
+    "name": "KEN: An Execution Engine for Unstructured Database Systems",
+    "title": "KEN: An Execution Engine for Unstructured Database Systems",
+    "url": "https://www.vldb.org/pvldb/vol19/p902-kossmann.pdf",
+    "year": 2026,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2056,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[KEN: An Execution Engine for Unstructured Database Systems](https://www.vldb.org/pvldb/vol19/p902-kossmann.pdf). Ferdinand Kossmann, Ziniu Wu, Alex Turk, Nesime Tatbul, Lei Cao, Samuel Madden. PVLDB 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2508-05012",
+    "name": "Making Prompts First-Class Citizens for Adaptive LLM Pipelines",
+    "title": "Making Prompts First-Class Citizens for Adaptive LLM Pipelines",
+    "url": "https://arxiv.org/abs/2508.05012",
+    "year": 2025,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2057,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Making Prompts First-Class Citizens for Adaptive LLM Pipelines](https://arxiv.org/abs/2508.05012). Ugur Cetintemel, Shu Chen, Alexander W. Lee, Deepti Raghavan. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2604-00660",
+    "name": "Streaming Model Cascades for Semantic SQL",
+    "title": "Streaming Model Cascades for Semantic SQL",
+    "url": "https://arxiv.org/abs/2604.00660",
+    "year": 2026,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2058,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Streaming Model Cascades for Semantic SQL](https://arxiv.org/abs/2604.00660). Pawel Liskowski, Kyle Schmaus. 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2402-17882",
+    "name": "BlendSQL: A Scalable Dialect for Unifying Hybrid Question Answering in Relational Algebra",
+    "title": "BlendSQL: A Scalable Dialect for Unifying Hybrid Question Answering in Relational Algebra",
+    "url": "https://arxiv.org/abs/2402.17882",
+    "year": 2024,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2059,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[BlendSQL: A Scalable Dialect for Unifying Hybrid Question Answering in Relational Algebra](https://arxiv.org/abs/2402.17882). Parker Glenn, Parag Pravin Dakle, Liang Wang, Preethi Raghavan. 2024."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2408-00884",
+    "name": "Hybrid Querying Over Relational Databases and Large Language Models",
+    "title": "Hybrid Querying Over Relational Databases and Large Language Models",
+    "url": "https://arxiv.org/abs/2408.00884",
+    "year": 2024,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2060,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Hybrid Querying Over Relational Databases and Large Language Models](https://arxiv.org/abs/2408.00884). Fuheng Zhao, Divyakant Agrawal, Amr El Abbadi. 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-efdd20df7d0b",
+    "name": "Logical and Physical Optimizations for SQL Query Execution over Large Language Models",
+    "title": "Logical and Physical Optimizations for SQL Query Execution over Large Language Models",
+    "url": "https://doi.org/10.1145/3725411",
+    "year": 2025,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2061,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Logical and Physical Optimizations for SQL Query Execution over Large Language Models](https://doi.org/10.1145/3725411). Dario Satriani, Enzo Veltri, Donatello Santoro, Sara Rosato, Simone Varriale, Paolo Papotti. Proc. ACM Manag. Data / SIGMOD 2025."
+      }
+    ]
+  },
+  {
+    "id": "ref-d845a48dcc81",
+    "name": "ThalamusDB: Approximate Query Processing on Multi-Modal Data",
+    "title": "ThalamusDB: Approximate Query Processing on Multi-Modal Data",
+    "url": null,
+    "year": 2024,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2062,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "ThalamusDB: Approximate Query Processing on Multi-Modal Data. Saehan Jo, Immanuel Trummer. Proc. ACM Manag. Data 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-c1f091aed610",
+    "name": "Approximate Selection with Guarantees using Proxies",
+    "title": "Approximate Selection with Guarantees using Proxies",
+    "url": "https://www.vldb.org/pvldb/vol13/p1990-kang.pdf",
+    "year": 2020,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2063,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Approximate Selection with Guarantees using Proxies](https://www.vldb.org/pvldb/vol13/p1990-kang.pdf). Daniel Kang, Edward Gan, Peter Bailis, Tatsunori Hashimoto, Matei Zaharia. PVLDB 2020."
+      }
+    ]
+  },
+  {
+    "id": "ref-120601be24c4",
+    "name": "Accelerating Approximate Aggregation Queries with Expensive Predicates",
+    "title": "Accelerating Approximate Aggregation Queries with Expensive Predicates",
+    "url": "https://www.vldb.org/pvldb/vol14/p2341-kang.pdf",
+    "year": 2021,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2064,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Accelerating Approximate Aggregation Queries with Expensive Predicates](https://www.vldb.org/pvldb/vol14/p2341-kang.pdf). Daniel Kang, John Guibas, Peter Bailis, Tatsunori Hashimoto, Yi Sun, Matei Zaharia. PVLDB 2021."
+      }
+    ]
+  },
+  {
+    "id": "ref-c6cf5f1702f9",
+    "name": "Accelerating Machine Learning Inference with Probabilistic Predicates",
+    "title": "Accelerating Machine Learning Inference with Probabilistic Predicates",
+    "url": "https://doi.org/10.1145/3183713.3183751",
+    "year": 2018,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2065,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Accelerating Machine Learning Inference with Probabilistic Predicates](https://doi.org/10.1145/3183713.3183751). Yao Lu, Aakanksha Chowdhery, Srikanth Kandula, Surajit Chaudhuri. SIGMOD 2018."
+      }
+    ]
+  },
+  {
+    "id": "ref-564f2022e48d",
+    "name": "Wander Join: Online Aggregation for Joins",
+    "title": "Wander Join: Online Aggregation for Joins",
+    "url": "https://doi.org/10.1145/2882903.2915235",
+    "year": 2016,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2066,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Wander Join: Online Aggregation for Joins](https://doi.org/10.1145/2882903.2915235). Feifei Li, Bin Wu, Ke Yi, Zhuoyue Zhao. SIGMOD 2016."
+      }
+    ]
+  },
+  {
+    "id": "ref-37c0c1fa8efa",
+    "name": "Eddies: Continuously Adaptive Query Processing",
+    "title": "Eddies: Continuously Adaptive Query Processing",
+    "url": "https://doi.org/10.1145/342009.335420",
+    "year": 2000,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2067,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[Eddies: Continuously Adaptive Query Processing](https://doi.org/10.1145/342009.335420). Ron Avnur, Joseph M. Hellerstein. SIGMOD 2000."
+      }
+    ]
+  },
+  {
+    "id": "ref-f7ee7814e14e",
+    "name": "BlazeIt: Optimizing Declarative Aggregation and Limit Queries for Neural Network-Based Video Analytics",
+    "title": "BlazeIt: Optimizing Declarative Aggregation and Limit Queries for Neural Network-Based Video Analytics",
+    "url": "https://www.vldb.org/pvldb/vol12/p1199-kang.pdf",
+    "year": 2019,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2068,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[BlazeIt: Optimizing Declarative Aggregation and Limit Queries for Neural Network-Based Video Analytics](http://www.vldb.org/pvldb/vol12/p1199-kang.pdf). Daniel Kang, Peter Bailis, Matei Zaharia. PVLDB 2019."
+      }
+    ]
+  },
+  {
+    "id": "ref-8891df20ddbe",
+    "name": "NoScope: Optimizing Neural Network Queries over Video at Scale",
+    "title": "NoScope: Optimizing Neural Network Queries over Video at Scale",
+    "url": "https://www.vldb.org/pvldb/vol10/p1586-kang.pdf",
+    "year": 2017,
+    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2069,
+        "section": "Operator-specific optimizer and query-centric workflow papers",
+        "citation": "[NoScope: Optimizing Neural Network Queries over Video at Scale](http://www.vldb.org/pvldb/vol10/p1586-kang.pdf). Daniel Kang, John Emmons, Firas Abuzaid, Peter Bailis, Matei Zaharia. PVLDB 2017."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2409-00847",
+    "name": "The Design of an LLM-powered Unstructured Analytics System (Aryn/Sycamore)",
+    "title": "The Design of an LLM-powered Unstructured Analytics System (Aryn/Sycamore)",
+    "url": "https://arxiv.org/abs/2409.00847",
+    "year": 2025,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2075,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[The Design of an LLM-powered Unstructured Analytics System (Aryn/Sycamore)](https://arxiv.org/abs/2409.00847). Eric Anderson et al. CIDR 2025. A closely related declarative-document architecture discussed by NousDB."
+      },
+      {
+        "document": "state-of-the-art.md",
+        "line": 2098,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "[The Design of an LLM-Powered Unstructured Analytics System / Aryn-Sycamore](https://arxiv.org/abs/2409.00847). E. Anderson et al. 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-f9e3f7194e66",
+    "name": "Apache DataFusion: A Fast, Extensible Query Engine for Building High-Quality Data-Centric Systems",
+    "title": "Apache DataFusion: A Fast, Extensible Query Engine for Building High-Quality Data-Centric Systems",
+    "url": "https://doi.org/10.1145/3626246.3653368",
+    "year": null,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2076,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[Apache DataFusion: A Fast, Extensible Query Engine for Building High-Quality Data-Centric Systems](https://doi.org/10.1145/3626246.3653368). Query-engine substrate used by NousDB."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2609-19491",
+    "name": "Efficiently Linking Unstructured Data for Multi-step Reasoning",
+    "title": "Efficiently Linking Unstructured Data for Multi-step Reasoning",
+    "url": "https://arxiv.org/abs/2609.19491",
+    "year": 2026,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2079,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[Efficiently Linking Unstructured Data for Multi-step Reasoning](https://arxiv.org/abs/2609.19491). Jiaming Liang, Haydn Jones, Jacob R. Gardner, Mark Yatskar, Zachary Ives. 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2609-09002",
+    "name": "Factorized and Vectorized Execution: Optimizing Analytical and Semantic Queries over Relations",
+    "title": "Factorized and Vectorized Execution: Optimizing Analytical and Semantic Queries over Relations",
+    "url": "https://arxiv.org/abs/2609.09002",
+    "year": 2026,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2080,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[Factorized and Vectorized Execution: Optimizing Analytical and Semantic Queries over Relations](https://arxiv.org/abs/2609.09002). Sunny Yasser, Anas Dorbani, Amine Mhedhbi. Proc. ACM Manag. Data 4(3), Article 178, 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2309-06180",
+    "name": "vLLM: Efficient Memory Management for Large Language Model Serving with PagedAttention",
+    "title": "vLLM: Efficient Memory Management for Large Language Model Serving with PagedAttention",
+    "url": "https://arxiv.org/abs/2309.06180",
+    "year": 2023,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2081,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[vLLM: Efficient Memory Management for Large Language Model Serving with PagedAttention](https://arxiv.org/abs/2309.06180). Woosuk Kwon, Zhuohan Li, Siyuan Zhuang, Ying Sheng, Lianmin Zheng, Cody Hao Yu, Joseph Gonzalez, Hao Zhang, Ion Stoica. SOSP 2023."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2312-07104",
+    "name": "SGLang: Efficient Execution of Structured Language Model Programs",
+    "title": "SGLang: Efficient Execution of Structured Language Model Programs",
+    "url": "https://arxiv.org/abs/2312.07104",
+    "year": 2024,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2082,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[SGLang: Efficient Execution of Structured Language Model Programs](https://arxiv.org/abs/2312.07104). Lianmin Zheng et al. 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-76210079970f",
+    "name": "Orca: A Distributed Serving System for Transformer-Based Generative Models",
+    "title": "Orca: A Distributed Serving System for Transformer-Based Generative Models",
+    "url": "https://www.usenix.org/conference/osdi22/presentation/yu",
+    "year": 2022,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2083,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/conference/osdi22/presentation/yu). Gyeong-In Yu, Joo Seong Jeong, Geon-Woo Kim, Soojeong Kim, Byung-Gon Chun. OSDI 2022."
+      }
+    ]
+  },
+  {
+    "id": "ref-bf0630162d5d",
+    "name": "Sarathi-Serve: Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve",
+    "title": "Sarathi-Serve: Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve",
+    "url": "https://www.usenix.org/conference/osdi24/presentation/agrawal",
+    "year": 2024,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2084,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[Sarathi-Serve: Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://www.usenix.org/conference/osdi24/presentation/agrawal). Amey Agrawal et al. OSDI 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-d08d91468182",
+    "name": "DistServe: Disaggregating Prefill and Decoding for Goodput-Optimized Large Language Model Serving",
+    "title": "DistServe: Disaggregating Prefill and Decoding for Goodput-Optimized Large Language Model Serving",
+    "url": "https://www.usenix.org/conference/osdi24/presentation/zhong-yinmin",
+    "year": 2024,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2085,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[DistServe: Disaggregating Prefill and Decoding for Goodput-Optimized Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/zhong-yinmin). Yinmin Zhong et al. OSDI 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-4a9db4de3b2b",
+    "name": "Llumnix: Dynamic Scheduling for Large Language Model Serving",
+    "title": "Llumnix: Dynamic Scheduling for Large Language Model Serving",
+    "url": "https://www.usenix.org/conference/osdi24/presentation/sun-biao",
+    "year": 2024,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2086,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[Llumnix: Dynamic Scheduling for Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/sun-biao). Biao Sun et al. OSDI 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-c2e55193e68a",
+    "name": "Prompt Cache: Modular Attention Reuse for Low-Latency Inference",
+    "title": "Prompt Cache: Modular Attention Reuse for Low-Latency Inference",
+    "url": "https://proceedings.mlsys.org/paper_files/paper/2024/hash/42a9f67b9afc73c7c9a128e5a0d1e4e4-Abstract-Conference.html",
+    "year": 2024,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2087,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[Prompt Cache: Modular Attention Reuse for Low-Latency Inference](https://proceedings.mlsys.org/paper_files/paper/2024/hash/42a9f67b9afc73c7c9a128e5a0d1e4e4-Abstract-Conference.html). In Gim et al. MLSys 2024."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2512-03389",
+    "name": "Continuous Prompts: LLM-Augmented Pipeline Processing over Unstructured Streams",
+    "title": "Continuous Prompts: LLM-Augmented Pipeline Processing over Unstructured Streams",
+    "url": "https://arxiv.org/abs/2512.03389",
+    "year": 2025,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2088,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[Continuous Prompts: LLM-Augmented Pipeline Processing over Unstructured Streams](https://arxiv.org/abs/2512.03389). Shu Chen, Deepti Raghavan, Uğur Çetintemel. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2602-05134",
+    "name": "SemPipes: Optimizable Semantic Data Operators for Tabular Machine Learning Pipelines",
+    "title": "SemPipes: Optimizable Semantic Data Operators for Tabular Machine Learning Pipelines",
+    "url": "https://arxiv.org/abs/2602.05134",
+    "year": 2026,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2089,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[SemPipes: Optimizable Semantic Data Operators for Tabular Machine Learning Pipelines](https://arxiv.org/abs/2602.05134). Olga Ovcharenko, Matthias Boehm, Sebastian Schelter. 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2601-05536",
+    "name": "Task Cascades for Efficient Unstructured Data Processing",
+    "title": "Task Cascades for Efficient Unstructured Data Processing",
+    "url": "https://arxiv.org/abs/2601.05536",
+    "year": 2026,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2090,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[Task Cascades for Efficient Unstructured Data Processing](https://arxiv.org/abs/2601.05536). Shreya Shankar, Sepanta Zeighami, Aditya Parameswaran. 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2509-02751",
+    "name": "Deep Research is the New Analytics System: Towards Building the Runtime for AI-Driven Analytics",
+    "title": "Deep Research is the New Analytics System: Towards Building the Runtime for AI-Driven Analytics",
+    "url": "https://arxiv.org/abs/2509.02751",
+    "year": 2025,
+    "category": "Serving-layer, runtime, and adjacent pipeline systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2091,
+        "section": "Serving-layer, runtime, and adjacent pipeline systems",
+        "citation": "[Deep Research is the New Analytics System: Towards Building the Runtime for AI-Driven Analytics](https://arxiv.org/abs/2509.02751). Matthew Russo, Tim Kraska. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2408-14717",
+    "name": "Text2SQL is Not Enough: Unifying AI and Databases with TAG",
+    "title": "Text2SQL is Not Enough: Unifying AI and Databases with TAG",
+    "url": "https://arxiv.org/abs/2408.14717",
+    "year": 2024,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2097,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "[Text2SQL is Not Enough: Unifying AI and Databases with TAG](https://arxiv.org/abs/2408.14717). A. Biswal et al. 2024."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2307-07306",
+    "name": "C3: Zero-shot Text-to-SQL with ChatGPT",
+    "title": "C3: Zero-shot Text-to-SQL with ChatGPT",
+    "url": "https://arxiv.org/abs/2307.07306",
+    "year": 2023,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2099,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "[C3: Zero-shot Text-to-SQL with ChatGPT](https://arxiv.org/abs/2307.07306). X. Dong et al. 2023. Relevant to schema-linking-as-LRO framing."
+      }
+    ]
+  },
+  {
+    "id": "ref-c289f402557f",
+    "name": "In-depth Analysis of LLM-Based Schema Linking",
+    "title": "In-depth Analysis of LLM-Based Schema Linking",
+    "url": null,
+    "year": 2026,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2100,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "In-depth Analysis of LLM-Based Schema Linking. G. Katsogiannis-Meimarakis, K. Mirylenka, P. Scotton, F. Fusco, A. Labbi. EDBT 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2205-09911",
+    "name": "Can Foundation Models Wrangle Your Data?",
+    "title": "Can Foundation Models Wrangle Your Data?",
+    "url": "https://arxiv.org/abs/2205.09911",
+    "year": 2022,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2101,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "[Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911). Avanika Narayan, Ines Chami, Laurel Orr, Christopher Re. PVLDB 2022."
+      },
+      {
+        "document": "state-of-the-art.md",
+        "line": 2151,
+        "section": "Adjacent data management and extraction systems",
+        "citation": "[Can Foundation Models Wrangle Your Data?](https://arxiv.org/abs/2205.09911). Avanika Narayan et al. 2022."
+      }
+    ]
+  },
+  {
+    "id": "ref-547df79ea94f",
+    "name": "Booster: Leveraging Large Language Models for Enhancing Entity Resolution",
+    "title": "Booster: Leveraging Large Language Models for Enhancing Entity Resolution",
+    "url": null,
+    "year": 2024,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2102,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "Booster: Leveraging Large Language Models for Enhancing Entity Resolution. H. Li, S. Li, F. Hao, C. Zhang, Y. Song, L. Chen. WWW Companion 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-58178413b245",
+    "name": "Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching",
+    "title": "Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching",
+    "url": null,
+    "year": 2025,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2103,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "Match, Compare, or Select? An Investigation of Large Language Models for Entity Matching. T. Wang et al. COLING 2025."
+      }
+    ]
+  },
+  {
+    "id": "ref-eded7ed7ba25",
+    "name": "Entity Matching Using Large Language Models",
+    "title": "Entity Matching Using Large Language Models",
+    "url": null,
+    "year": 2025,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2104,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "Entity Matching Using Large Language Models. R. Peeters, A. Steiner, C. Bizer. EDBT 2025."
+      }
+    ]
+  },
+  {
+    "id": "ref-c2f9278dc837",
+    "name": "Fine-Tuning Large Language Models for Entity Matching",
+    "title": "Fine-Tuning Large Language Models for Entity Matching",
+    "url": null,
+    "year": 2025,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2105,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "Fine-Tuning Large Language Models for Entity Matching. A. Steiner, R. Peeters, C. Bizer. ICDEW 2025."
+      }
+    ]
+  },
+  {
+    "id": "ref-59c3b3b8d8eb",
+    "name": "UniDM: A Unified Framework for Data Manipulation with Large Language Models",
+    "title": "UniDM: A Unified Framework for Data Manipulation with Large Language Models",
+    "url": "https://proceedings.mlsys.org",
+    "year": 2024,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2106,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "[UniDM: A Unified Framework for Data Manipulation with Large Language Models](https://proceedings.mlsys.org/). Y. Qian et al. MLSys 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-69a564882375",
+    "name": "LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation",
+    "title": "LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation",
+    "url": null,
+    "year": 2025,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2107,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "LLM-Forest: Ensemble Learning of LLMs with Graph-Augmented Prompts for Data Imputation. X. He et al. ACL Findings 2025."
+      }
+    ]
+  },
+  {
+    "id": "ref-951a1d42efbc",
+    "name": "Large Language Models as Data Preprocessors",
+    "title": "Large Language Models as Data Preprocessors",
+    "url": null,
+    "year": 2024,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2108,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "Large Language Models as Data Preprocessors. H. Zhang, Y. Dong, C. Xiao, M. Oyamada. VLDB Workshops 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-27a51549dee0",
+    "name": "LLMs with User-Defined Prompts as Generic Data Operators for Reliable Data Processing / LLM-GDO",
+    "title": "LLMs with User-Defined Prompts as Generic Data Operators for Reliable Data Processing / LLM-GDO",
+    "url": null,
+    "year": 2023,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2109,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "LLMs with User-Defined Prompts as Generic Data Operators for Reliable Data Processing / LLM-GDO. L. Ma et al. IEEE Big Data 2023."
+      }
+    ]
+  },
+  {
+    "id": "ref-612428ef67d8",
+    "name": "Relationalizing Tables with Large Language Models: The Promise and Challenges",
+    "title": "Relationalizing Tables with Large Language Models: The Promise and Challenges",
+    "url": null,
+    "year": 2024,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2110,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "Relationalizing Tables with Large Language Models: The Promise and Challenges. Z. Huang, E. Wu. ICDEW 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-53b225c975c0",
+    "name": "Table-GPT: Table Fine-Tuned GPT for Diverse Table Tasks",
+    "title": "Table-GPT: Table Fine-Tuned GPT for Diverse Table Tasks",
+    "url": "https://doi.org/10.1145/3654930",
+    "year": 2024,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2111,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "[Table-GPT: Table Fine-Tuned GPT for Diverse Table Tasks](https://doi.org/10.1145/3654930). P. Li et al. Proc. ACM Manag. Data 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-c31673a03164",
+    "name": "SANTOS: Relationship-Based Semantic Table Union Search",
+    "title": "SANTOS: Relationship-Based Semantic Table Union Search",
+    "url": "https://doi.org/10.1145/3588900",
+    "year": 2023,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2112,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "[SANTOS: Relationship-Based Semantic Table Union Search](https://doi.org/10.1145/3588900). A. Khatiwada et al. Proc. ACM Manag. Data 2023."
+      }
+    ]
+  },
+  {
+    "id": "ref-7ef6e5010ea6",
+    "name": "NextiaJD: Towards Scalable Data Discovery",
+    "title": "NextiaJD: Towards Scalable Data Discovery",
+    "url": null,
+    "year": 2021,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2113,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "NextiaJD: Towards Scalable Data Discovery. J. Flores, S. Nadal, O. Romero. EDBT 2021."
+      }
+    ]
+  },
+  {
+    "id": "ref-ed864a72efea",
+    "name": "The Magellan Data Repository",
+    "title": "The Magellan Data Repository",
+    "url": null,
+    "year": null,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2114,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "The Magellan Data Repository. S. Das, A. Doan, P. Konda, et al. Data repository for entity-matching benchmarks."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2409-02038",
+    "name": "BEAVER: An Enterprise Benchmark for Text-to-SQL",
+    "title": "BEAVER: An Enterprise Benchmark for Text-to-SQL",
+    "url": "https://arxiv.org/abs/2409.02038",
+    "year": 2024,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2115,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "[BEAVER: An Enterprise Benchmark for Text-to-SQL](https://arxiv.org/abs/2409.02038). P. B. Chen et al. 2024."
+      },
+      {
+        "document": "state-of-the-art.md",
+        "line": 2130,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[BEAVER: An Enterprise Benchmark for Text-to-SQL](https://arxiv.org/abs/2409.02038). Peter Baile Chen, Fabian Wenz, Yi Zhang, Devin Yang, Justin Choi, Nesime Tatbul, Michael Cafarella, Cagatay Demiralp, Michael Stonebraker. 2025."
+      }
+    ]
+  },
+  {
+    "id": "ref-e96e727970ad",
+    "name": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
+    "title": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
+    "url": "https://openreview.net",
+    "year": 2025,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2116,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "[Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows](https://openreview.net/). F. Lei et al. ICLR 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2504-04808",
+    "name": "ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines",
+    "title": "ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines",
+    "url": "https://arxiv.org/abs/2504.04808",
+    "year": 2025,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2117,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "[ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines](https://arxiv.org/abs/2504.04808). T. Jin, Y. Zhu, D. Kang. 2025."
+      }
+    ]
+  },
+  {
+    "id": "ref-6da435766c04",
+    "name": "CAESURA: Language Models as Multi-Modal Query Planners",
+    "title": "CAESURA: Language Models as Multi-Modal Query Planners",
+    "url": "https://www.cidrdb.org",
+    "year": 2024,
+    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2118,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "[CAESURA: Language Models as Multi-Modal Query Planners](https://www.cidrdb.org/). M. Urban, C. Binnig. CIDR 2024."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2411-07763",
+    "name": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
+    "title": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
+    "url": "https://arxiv.org/abs/2411.07763",
+    "year": 2025,
+    "category": "AI-native SQL generation and text-to-SQL benchmark sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2129,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows](https://arxiv.org/abs/2411.07763). Fangyu Lei et al. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2305-03111",
+    "name": "BIRD: A Big Bench for Large-Scale Database Grounded Text-to-SQLs",
+    "title": "BIRD: A Big Bench for Large-Scale Database Grounded Text-to-SQLs",
+    "url": "https://arxiv.org/abs/2305.03111",
+    "year": 2023,
+    "category": "AI-native SQL generation and text-to-SQL benchmark sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2131,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[BIRD: A Big Bench for Large-Scale Database Grounded Text-to-SQLs](https://arxiv.org/abs/2305.03111). Jinyang Li et al. 2023."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2106-11455",
+    "name": "KaggleDBQA: Realistic Evaluation of Text-to-SQL Parsers",
+    "title": "KaggleDBQA: Realistic Evaluation of Text-to-SQL Parsers",
+    "url": "https://arxiv.org/abs/2106.11455",
+    "year": 2021,
+    "category": "AI-native SQL generation and text-to-SQL benchmark sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2132,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[KaggleDBQA: Realistic Evaluation of Text-to-SQL Parsers](https://arxiv.org/abs/2106.11455). Chia-Hsuan Lee, Oleksandr Polozov, Matthew Richardson. 2021."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2010-11246",
+    "name": "SQUALL: On the Potential of Lexico-Logical Alignments for Semantic Parsing to SQL Queries",
+    "title": "SQUALL: On the Potential of Lexico-Logical Alignments for Semantic Parsing to SQL Queries",
+    "url": "https://arxiv.org/abs/2010.11246",
+    "year": 2010,
+    "category": "AI-native SQL generation and text-to-SQL benchmark sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2133,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[SQUALL: On the Potential of Lexico-Logical Alignments for Semantic Parsing to SQL Queries](https://arxiv.org/abs/2010.11246). Tianze Shi, Chen Zhao, Jordan Boyd-Graber, Hal Daume III, Lillian Lee. 2020."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2509-24405",
+    "name": "Multilingual Text-to-SQL: Benchmarking the Limits of Language Models with Collaborative Language Agents",
+    "title": "Multilingual Text-to-SQL: Benchmarking the Limits of Language Models with Collaborative Language Agents",
+    "url": "https://arxiv.org/abs/2509.24405",
+    "year": 2025,
+    "category": "AI-native SQL generation and text-to-SQL benchmark sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2134,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[Multilingual Text-to-SQL: Benchmarking the Limits of Language Models with Collaborative Language Agents](https://arxiv.org/abs/2509.24405). Khanh Trinh Pham et al. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2510-07309",
+    "name": "Agent Bain vs. Agent McKinsey: A New Text-to-SQL Benchmark for the Business Domain / CORGI",
+    "title": "Agent Bain vs. Agent McKinsey: A New Text-to-SQL Benchmark for the Business Domain / CORGI",
+    "url": "https://arxiv.org/abs/2510.07309",
+    "year": 2026,
+    "category": "AI-native SQL generation and text-to-SQL benchmark sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2135,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[Agent Bain vs. Agent McKinsey: A New Text-to-SQL Benchmark for the Business Domain / CORGI](https://arxiv.org/abs/2510.07309). Yue Li et al. 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2511-17190",
+    "name": "AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale",
+    "title": "AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale",
+    "url": "https://arxiv.org/abs/2511.17190",
+    "year": 2025,
+    "category": "AI-native SQL generation and text-to-SQL benchmark sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2136,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale](https://arxiv.org/abs/2511.17190). Ziyang Wang et al. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2502-00675",
+    "name": "ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration",
+    "title": "ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration",
+    "url": "https://arxiv.org/abs/2502.00675",
+    "year": 2025,
+    "category": "AI-native SQL generation and text-to-SQL benchmark sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2137,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[ReFoRCE: A Text-to-SQL Agent with Self-Refinement, Consensus Enforcement, and Column Exploration](https://arxiv.org/abs/2502.00675). Minghang Deng et al. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2511-21402",
+    "name": "Text-to-SQL as Dual-State Reasoning / DSR-SQL",
+    "title": "Text-to-SQL as Dual-State Reasoning / DSR-SQL",
+    "url": "https://arxiv.org/abs/2511.21402",
+    "year": 2025,
+    "category": "AI-native SQL generation and text-to-SQL benchmark sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2138,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[Text-to-SQL as Dual-State Reasoning / DSR-SQL](https://arxiv.org/abs/2511.21402). Zhifeng Hao, Qibin Song, Ruichu Cai, Boyan Xu. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2602-16720",
+    "name": "APEX-SQL: Talking to the Data via Agentic Exploration for Text-to-SQL",
+    "title": "APEX-SQL: Talking to the Data via Agentic Exploration for Text-to-SQL",
+    "url": "https://arxiv.org/abs/2602.16720",
+    "year": 2026,
+    "category": "AI-native SQL generation and text-to-SQL benchmark sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2139,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[APEX-SQL: Talking to the Data via Agentic Exploration for Text-to-SQL](https://arxiv.org/abs/2602.16720). Bowen Cao, Weibin Liao, Yushi Sun, Dong Fang, Haitao Li, Wai Lam. 2026."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2408-04667",
+    "name": "Non-determinism of \"Deterministic\" LLM Settings",
+    "title": "Non-determinism of \"Deterministic\" LLM Settings",
+    "url": "https://arxiv.org/abs/2408.04667",
+    "year": 2025,
+    "category": "AI-native SQL generation and text-to-SQL benchmark sources",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2140,
+        "section": "AI-native SQL generation and text-to-SQL benchmark sources",
+        "citation": "[Non-determinism of \"Deterministic\" LLM Settings](https://arxiv.org/abs/2408.04667). Berk Atil et al. 2025."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2210-02875",
+    "name": "Binding Language Models in Symbolic Languages",
+    "title": "Binding Language Models in Symbolic Languages",
+    "url": "https://arxiv.org/abs/2210.02875",
+    "year": 2022,
+    "category": "Hybrid query and neural-symbolic systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2145,
+        "section": "Hybrid query and neural-symbolic systems",
+        "citation": "[Binding Language Models in Symbolic Languages](https://arxiv.org/abs/2210.02875). Zhoujun Cheng et al. 2022."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2312-13264",
+    "name": "dIR: Discrete Information Retrieval",
+    "title": "dIR: Discrete Information Retrieval",
+    "url": "https://arxiv.org/abs/2312.13264",
+    "year": 2023,
+    "category": "Hybrid query and neural-symbolic systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2146,
+        "section": "Hybrid query and neural-symbolic systems",
+        "citation": "[dIR: Discrete Information Retrieval](https://arxiv.org/abs/2312.13264). Pablo M. Rodriguez Bertorello, Jean Rodmond Junior Laguerre. 2023."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2304-09433",
+    "name": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
+    "title": "Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes",
+    "url": "https://arxiv.org/abs/2304.09433",
+    "year": 2023,
+    "category": "Adjacent data management and extraction systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2150,
+        "section": "Adjacent data management and extraction systems",
+        "citation": "[Language Models Enable Simple Systems for Generating Structured Views of Heterogeneous Data Lakes](https://arxiv.org/abs/2304.09433). Simran Arora et al. 2023."
+      }
+    ]
+  },
+  {
+    "id": "arxiv-2406-15652",
+    "name": "GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables",
+    "title": "GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables",
+    "url": "https://arxiv.org/abs/2406.15652",
+    "year": 2024,
+    "category": "Adjacent data management and extraction systems",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2152,
+        "section": "Adjacent data management and extraction systems",
+        "citation": "[GenSQL: A Probabilistic Programming System for Querying Generative Models of Database Tables](https://arxiv.org/abs/2406.15652). Mathieu Huot et al. 2024."
+      }
+    ]
+  },
+  {
+    "id": "ref-ce691ea1515b",
+    "name": "BigQuery ML introduction",
+    "title": "BigQuery ML introduction",
+    "url": "https://cloud.google.com/bigquery/docs/bqml-introduction",
+    "year": null,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2156,
+        "section": "Product documentation and platform references",
+        "citation": "[BigQuery ML introduction](https://cloud.google.com/bigquery/docs/bqml-introduction)."
+      }
+    ]
+  },
+  {
+    "id": "ref-a47102efd896",
+    "name": "BigQuery ML remote model tutorial",
+    "title": "BigQuery ML remote model tutorial",
+    "url": "https://cloud.google.com/bigquery/docs/bigquery-ml-remote-model-tutorial",
+    "year": null,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2157,
+        "section": "Product documentation and platform references",
+        "citation": "[BigQuery ML remote model tutorial](https://cloud.google.com/bigquery/docs/bigquery-ml-remote-model-tutorial)."
+      }
+    ]
+  },
+  {
+    "id": "ref-abfac6694c64",
+    "name": "BigQuery ML.GENERATE_TEXT syntax",
+    "title": "BigQuery ML.GENERATE_TEXT syntax",
+    "url": "https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-generate-text",
+    "year": null,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2158,
+        "section": "Product documentation and platform references",
+        "citation": "[BigQuery ML.GENERATE_TEXT syntax](https://cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-generate-text)."
+      }
+    ]
+  },
+  {
+    "id": "ref-36e29794fe13",
+    "name": "BigQuery object tables",
+    "title": "BigQuery object tables",
+    "url": "https://cloud.google.com/bigquery/docs/object-tables",
+    "year": null,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2159,
+        "section": "Product documentation and platform references",
+        "citation": "[BigQuery object tables](https://cloud.google.com/bigquery/docs/object-tables)."
+      }
+    ]
+  },
+  {
+    "id": "ref-9d75e5a018b5",
+    "name": "BigQuery vector search",
+    "title": "BigQuery vector search",
+    "url": "https://cloud.google.com/bigquery/docs/vector-search",
+    "year": null,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2160,
+        "section": "Product documentation and platform references",
+        "citation": "[BigQuery vector search](https://cloud.google.com/bigquery/docs/vector-search)."
+      }
+    ]
+  },
+  {
+    "id": "ref-4528e197ce17",
+    "name": "Snowflake Cortex",
+    "title": "Snowflake Cortex",
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex",
+    "year": null,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2161,
+        "section": "Product documentation and platform references",
+        "citation": "[Snowflake Cortex](https://docs.snowflake.com/en/user-guide/snowflake-cortex)."
+      }
+    ]
+  },
+  {
+    "id": "ref-1710a231cd52",
+    "name": "Snowflake Cortex LLM functions",
+    "title": "Snowflake Cortex LLM functions",
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/llm-functions",
+    "year": null,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2162,
+        "section": "Product documentation and platform references",
+        "citation": "[Snowflake Cortex LLM functions](https://docs.snowflake.com/en/user-guide/snowflake-cortex/llm-functions)."
+      }
+    ]
+  },
+  {
+    "id": "ref-65d68b74aa07",
+    "name": "Snowflake Cortex Search",
+    "title": "Snowflake Cortex Search",
+    "url": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-overview",
+    "year": null,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2163,
+        "section": "Product documentation and platform references",
+        "citation": "[Snowflake Cortex Search](https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-search/cortex-search-overview)."
+      }
+    ]
+  },
+  {
+    "id": "ref-201f6dcd0dc2",
+    "name": "Snowflake AI_FUNCTION_EVALUATION",
+    "title": "Snowflake AI_FUNCTION_EVALUATION",
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/ai_function_evaluation",
+    "year": null,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2164,
+        "section": "Product documentation and platform references",
+        "citation": "[Snowflake AI_FUNCTION_EVALUATION](https://docs.snowflake.com/en/sql-reference/functions/ai_function_evaluation)."
+      }
+    ]
+  },
+  {
+    "id": "ref-d6b532935920",
+    "name": "Snowflake AI_FUNCTION_OPTIMIZATION",
+    "title": "Snowflake AI_FUNCTION_OPTIMIZATION",
+    "url": "https://docs.snowflake.com/en/sql-reference/functions/ai_function_optimization",
+    "year": null,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2165,
+        "section": "Product documentation and platform references",
+        "citation": "[Snowflake AI_FUNCTION_OPTIMIZATION](https://docs.snowflake.com/en/sql-reference/functions/ai_function_optimization)."
+      }
+    ]
+  },
+  {
+    "id": "ref-b01de60e31ab",
+    "name": "Databricks Mosaic AI Model Serving",
+    "title": "Databricks Mosaic AI Model Serving",
+    "url": "https://docs.databricks.com/aws/en/machine-learning/model-serving",
+    "year": null,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2167,
+        "section": "Product documentation and platform references",
+        "citation": "[Databricks Mosaic AI Model Serving](https://docs.databricks.com/aws/en/machine-learning/model-serving/)."
+      }
+    ]
+  },
+  {
+    "id": "ref-5c1373c4af9c",
+    "name": "Databricks Vector Search",
+    "title": "Databricks Vector Search",
+    "url": "https://docs.databricks.com/aws/en/generative-ai/vector-search",
+    "year": null,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "line": 2168,
+        "section": "Product documentation and platform references",
+        "citation": "[Databricks Vector Search](https://docs.databricks.com/aws/en/generative-ai/vector-search)."
+      }
+    ]
+  },
+  {
+    "id": "ref-79423d32e9c5",
+    "name": "BARGAIN",
+    "title": "BARGAIN",
+    "url": "https://arxiv.org/abs/2509.02896",
+    "year": null,
+    "category": "Additional survey citations",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Metadata pending verification",
+    "profile": false,
+    "verifiedDate": null,
+    "evidence": "Imported reference; metadata not independently checked",
+    "tags": [],
+    "aliases": [],
+    "provenance": [
+      {
+        "document": "state-of-the-art.md",
+        "citation": "[BARGAIN](https://arxiv.org/abs/2509.02896)"
+      }
+    ]
+  }
+]
