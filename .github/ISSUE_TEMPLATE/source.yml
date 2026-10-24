@@ -1,5 +1,6 @@
 name: Suggest a source
 description: Propose a paper, benchmark, software resource or documentation source.
+labels: ["submission"]
 body:
   - type: textarea
     id: source

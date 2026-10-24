@@ -1,5 +1,6 @@
 name: Correct a record
 description: Report incorrect metadata or editorial content.
+labels: ["correction"]
 body:
   - type: textarea
     id: record

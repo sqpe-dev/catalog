@@ -758,7 +758,9 @@
     "reviewStatus": "Publication record checked",
     "aliases": [],
     "provenance": [],
-    "parentRecord": "jevdb"
+    "parentRecord": "jevdb",
+    "resourceName": "Shelob",
+    "metadataNote": "Benchmark described in the JEVDB publication; linked to parentRecord jevdb."
   },
   {
     "id": "spider2-aifunc",
@@ -1091,7 +1093,7 @@
     "name": "CADENZA: Compiling Natural-Language Intent into Task-Specific Operator DAGs for Semantic Query Processing",
     "title": "CADENZA: Compiling Natural-Language Intent into Task-Specific Operator DAGs for Semantic Query Processing",
     "url": "https://arxiv.org/abs/2606.29151",
-    "year": 2027,
+    "year": 2026,
     "category": "Operator-specific optimizer and query-centric workflow papers",
     "sourceType": "Research paper",
     "relevance": "Related methods and background",
@@ -1307,7 +1309,7 @@
     "name": "Extending Relational Query Processing with ML Inference",
     "title": "Extending Relational Query Processing with ML Inference",
     "url": "https://arxiv.org/abs/1911.00231",
-    "year": 1911,
+    "year": 2020,
     "category": "Operator-specific optimizer and query-centric workflow papers",
     "sourceType": "Research paper",
     "relevance": "Related methods and background",
@@ -1570,7 +1572,7 @@
     "id": "ref-21402d1d1aea",
     "name": "Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees",
     "title": "Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees",
-    "url": null,
+    "url": "https://arxiv.org/abs/2509.02896",
     "year": 2025,
     "category": "Operator-specific optimizer and query-centric workflow papers",
     "sourceType": "Research paper",
@@ -1587,8 +1589,13 @@
         "line": 2055,
         "section": "Operator-specific optimizer and query-centric workflow papers",
         "citation": "Cut Costs, Not Accuracy: LLM-Powered Data Processing with Guarantees. Sepanta Zeighami, Shreya Shankar, Aditya Parameswaran. Proc. ACM Manag. Data 3(6), 2025. Cited in semantic filtering and join papers as BARGAIN-style cascade work."
+      },
+      {
+        "document": "state-of-the-art.md",
+        "citation": "[BARGAIN](https://arxiv.org/abs/2509.02896)"
       }
-    ]
+    ],
+    "metadataNote": "Primary record identity checked during deduplication; remaining imported metadata awaits verification."
   },
   {
     "id": "ref-92c7cd3291ab",
@@ -2737,30 +2744,6 @@
     ]
   },
   {
-    "id": "ref-e96e727970ad",
-    "name": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
-    "title": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
-    "url": "https://openreview.net",
-    "year": 2025,
-    "category": "LRO taxonomy, table-centric, and relational-data preparation sources",
-    "sourceType": "Research paper",
-    "relevance": "Related methods and background",
-    "reviewStatus": "Metadata pending verification",
-    "profile": false,
-    "verifiedDate": null,
-    "evidence": "Imported reference; metadata not independently checked",
-    "tags": [],
-    "aliases": [],
-    "provenance": [
-      {
-        "document": "state-of-the-art.md",
-        "line": 2116,
-        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
-        "citation": "[Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows](https://openreview.net/). F. Lei et al. ICLR 2025."
-      }
-    ]
-  },
-  {
     "id": "arxiv-2504-04808",
     "name": "ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines",
     "title": "ELT-Bench: An End-to-End Benchmark for Evaluating AI Agents on ELT Pipelines",
@@ -2813,7 +2796,7 @@
     "name": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
     "title": "Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows",
     "url": "https://arxiv.org/abs/2411.07763",
-    "year": 2025,
+    "year": 2024,
     "category": "AI-native SQL generation and text-to-SQL benchmark sources",
     "sourceType": "Research paper",
     "relevance": "Related methods and background",
@@ -2829,8 +2812,15 @@
         "line": 2129,
         "section": "AI-native SQL generation and text-to-SQL benchmark sources",
         "citation": "[Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows](https://arxiv.org/abs/2411.07763). Fangyu Lei et al. 2025."
+      },
+      {
+        "document": "state-of-the-art.md",
+        "line": 2116,
+        "section": "LRO taxonomy, table-centric, and relational-data preparation sources",
+        "citation": "[Spider 2.0: Evaluating Language Models on Real-World Enterprise Text-to-SQL Workflows](https://openreview.net/). F. Lei et al. ICLR 2025."
       }
-    ]
+    ],
+    "metadataNote": "Primary record identity checked during deduplication; remaining imported metadata awaits verification."
   },
   {
     "id": "arxiv-2305-03111",
@@ -2885,7 +2875,7 @@
     "name": "SQUALL: On the Potential of Lexico-Logical Alignments for Semantic Parsing to SQL Queries",
     "title": "SQUALL: On the Potential of Lexico-Logical Alignments for Semantic Parsing to SQL Queries",
     "url": "https://arxiv.org/abs/2010.11246",
-    "year": 2010,
+    "year": 2020,
     "category": "AI-native SQL generation and text-to-SQL benchmark sources",
     "sourceType": "Research paper",
     "relevance": "Related methods and background",
@@ -3453,28 +3443,6 @@
         "line": 2168,
         "section": "Product documentation and platform references",
         "citation": "[Databricks Vector Search](https://docs.databricks.com/aws/en/generative-ai/vector-search)."
-      }
-    ]
-  },
-  {
-    "id": "ref-79423d32e9c5",
-    "name": "BARGAIN",
-    "title": "BARGAIN",
-    "url": "https://arxiv.org/abs/2509.02896",
-    "year": null,
-    "category": "Additional survey citations",
-    "sourceType": "Research paper",
-    "relevance": "Related methods and background",
-    "reviewStatus": "Metadata pending verification",
-    "profile": false,
-    "verifiedDate": null,
-    "evidence": "Imported reference; metadata not independently checked",
-    "tags": [],
-    "aliases": [],
-    "provenance": [
-      {
-        "document": "state-of-the-art.md",
-        "citation": "[BARGAIN](https://arxiv.org/abs/2509.02896)"
       }
     ]
   }

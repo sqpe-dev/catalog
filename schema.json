@@ -1,0 +1,122 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/sqpe-dev/catalog/blob/main/schema.json",
+  "title": "SQPE catalog",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "title",
+      "url",
+      "year",
+      "sourceType",
+      "relevance",
+      "reviewStatus",
+      "profile",
+      "verifiedDate",
+      "evidence",
+      "aliases",
+      "provenance"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "uri"
+      },
+      "year": {
+        "type": [
+          "integer",
+          "null"
+        ]
+      },
+      "profile": {
+        "type": "boolean"
+      },
+      "sourceType": {
+        "enum": [
+          "Research paper",
+          "Product documentation",
+          "Software",
+          "Benchmark"
+        ]
+      },
+      "relevance": {
+        "type": "string"
+      },
+      "reviewStatus": {
+        "enum": [
+          "Metadata pending verification",
+          "Publication record checked",
+          "Documentation checked",
+          "Full paper reviewed"
+        ]
+      },
+      "verifiedDate": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "format": "date"
+      },
+      "evidence": {
+        "type": "string"
+      },
+      "aliases": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "format": "uri"
+        },
+        "uniqueItems": true
+      },
+      "provenance": {
+        "type": "array",
+        "items": {
+          "type": "object"
+        }
+      }
+    },
+    "allOf": [
+      {
+        "if": {
+          "properties": {
+            "reviewStatus": {
+              "const": "Metadata pending verification"
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "verifiedDate": {
+              "type": "null"
+            }
+          }
+        },
+        "else": {
+          "properties": {
+            "verifiedDate": {
+              "type": "string",
+              "format": "date"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri"
+            }
+          }
+        }
+      }
+    ]
+  }
+}
