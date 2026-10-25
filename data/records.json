@@ -933,7 +933,13 @@
     "relevance": "Core SQPE research",
     "reviewStatus": "Documentation checked",
     "aliases": [],
-    "provenance": []
+    "provenance": [],
+    "resources": [
+      {
+        "label": "BigQuery Graph — dated announcement",
+        "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-graph-connecting-data-and-ai-at-scale/"
+      }
+    ]
   },
   {
     "id": "snowflake",
@@ -957,7 +963,21 @@
     "relevance": "Core SQPE research",
     "reviewStatus": "Documentation checked",
     "aliases": [],
-    "provenance": []
+    "provenance": [],
+    "resources": [
+      {
+        "label": "Snowflake response caching — dated announcement",
+        "url": "https://docs.snowflake.com/en/release-notes/2026/other/2026-09-29-cortex-response-caching"
+      },
+      {
+        "label": "AI function evaluation — public preview",
+        "url": "https://docs.snowflake.com/en/release-notes/2026/other/2026-09-21-ai-function-evaluation-preview"
+      },
+      {
+        "label": "AI function optimization — public preview",
+        "url": "https://docs.snowflake.com/en/release-notes/2026/other/2026-09-21-ai-function-optimization-preview"
+      }
+    ]
   },
   {
     "id": "databricks",
@@ -987,6 +1007,12 @@
         "line": 2166,
         "section": "Product documentation and platform references",
         "citation": "[Databricks ai_query SQL function](https://docs.databricks.com/aws/en/sql/language-manual/functions/ai_query)."
+      }
+    ],
+    "resources": [
+      {
+        "label": "Databricks extraction updates — dated announcement",
+        "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october"
       }
     ]
   },
@@ -1090,19 +1116,25 @@
   },
   {
     "id": "arxiv-2606-29151",
-    "name": "CADENZA: Compiling Natural-Language Intent into Task-Specific Operator DAGs for Semantic Query Processing",
+    "name": "CADENZA",
     "title": "CADENZA: Compiling Natural-Language Intent into Task-Specific Operator DAGs for Semantic Query Processing",
     "url": "https://arxiv.org/abs/2606.29151",
     "year": 2026,
-    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "category": "Optimization",
     "sourceType": "Research paper",
-    "relevance": "Related methods and background",
-    "reviewStatus": "Metadata pending verification",
-    "profile": false,
-    "verifiedDate": null,
-    "evidence": "Imported reference; metadata not independently checked",
-    "tags": [],
-    "aliases": [],
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "profile": true,
+    "verifiedDate": "2026-10-24",
+    "evidence": "arXiv record and abstract checked; POSTECH publication announcement confirms PACMMOD 4(4), Article 265 (2026), associated with SIGMOD 2027. No full-paper review.",
+    "tags": [
+      "Query optimization",
+      "Multimodal",
+      "Model routing"
+    ],
+    "aliases": [
+      "https://doi.org/10.1145/3837103"
+    ],
     "provenance": [
       {
         "document": "state-of-the-art.md",
@@ -1110,22 +1142,29 @@
         "section": "Operator-specific optimizer and query-centric workflow papers",
         "citation": "[CADENZA: Compiling Natural-Language Intent into Task-Specific Operator DAGs for Semantic Query Processing](https://arxiv.org/abs/2606.29151). Jaehyun Ha, Yongjoo Park, Wook-Shin Han. SIGMOD 2027 / arXiv 2026."
       }
-    ]
+    ],
+    "summary": "Compiles a semantic operator’s natural-language intent into typed task DAGs. Task-extended relational algebra exposes intermediate outputs for rewrites, while physical planning jointly tunes backend routing and execution parameters.",
+    "interface": "Task-extended relational algebra (TxRA)",
+    "caveat": "Alternative task decompositions can change quality. Reported trade-offs depend on validation workloads, candidate plans and optimization overhead; they are not universal semantic equivalences."
   },
   {
     "id": "arxiv-2512-05399",
-    "name": "Featurized-Decomposition Join: Low-Cost Semantic Joins with Guarantees",
+    "name": "Featurized-Decomposition Join",
     "title": "Featurized-Decomposition Join: Low-Cost Semantic Joins with Guarantees",
     "url": "https://arxiv.org/abs/2512.05399",
     "year": 2025,
-    "category": "Operator-specific optimizer and query-centric workflow papers",
+    "category": "Optimization",
     "sourceType": "Research paper",
-    "relevance": "Related methods and background",
-    "reviewStatus": "Metadata pending verification",
-    "profile": false,
-    "verifiedDate": null,
-    "evidence": "Imported reference; metadata not independently checked",
-    "tags": [],
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "profile": true,
+    "verifiedDate": "2026-10-24",
+    "evidence": "arXiv v1 publication record and abstract checked. The preprint was submitted December 5, 2025; full paper and implementation not reviewed.",
+    "tags": [
+      "Semantic joins",
+      "Pruning",
+      "Quality guarantees"
+    ],
     "aliases": [],
     "provenance": [
       {
@@ -1134,7 +1173,10 @@
         "section": "Operator-specific optimizer and query-centric workflow papers",
         "citation": "[Featurized-Decomposition Join: Low-Cost Semantic Joins with Guarantees](https://arxiv.org/abs/2512.05399). Sepanta Zeighami, Shreya Shankar, Aditya Parameswaran. 2025."
       }
-    ]
+    ],
+    "summary": "Extracts features from text and composes inexpensive comparisons into a conjunctive-normal-form decomposition that prunes semantic-join candidate pairs before costly model evaluation.",
+    "interface": "Semantic joins",
+    "caveat": "The statistical quality claims depend on the decomposition and calibration procedure, including dependencies among extracted features. This profile does not establish comparable gains on other joins."
   },
   {
     "id": "ref-43d0f45c6e32",
@@ -3354,17 +3396,19 @@
     "id": "ref-201f6dcd0dc2",
     "name": "Snowflake AI_FUNCTION_EVALUATION",
     "title": "Snowflake AI_FUNCTION_EVALUATION",
-    "url": "https://docs.snowflake.com/en/sql-reference/functions/ai_function_evaluation",
-    "year": null,
+    "url": "https://docs.snowflake.com/en/release-notes/2026/other/2026-09-21-ai-function-evaluation-preview",
+    "year": 2026,
     "category": "Product documentation and platform references",
     "sourceType": "Product documentation",
     "relevance": "Related methods and background",
-    "reviewStatus": "Metadata pending verification",
+    "reviewStatus": "Documentation checked",
     "profile": false,
-    "verifiedDate": null,
-    "evidence": "Imported reference; metadata not independently checked",
+    "verifiedDate": "2026-10-24",
+    "evidence": "September 21, 2026 official public-preview announcement checked; no independent product evaluation.",
     "tags": [],
-    "aliases": [],
+    "aliases": [
+      "https://docs.snowflake.com/en/sql-reference/functions/ai_function_evaluation"
+    ],
     "provenance": [
       {
         "document": "state-of-the-art.md",
@@ -3372,23 +3416,26 @@
         "section": "Product documentation and platform references",
         "citation": "[Snowflake AI_FUNCTION_EVALUATION](https://docs.snowflake.com/en/sql-reference/functions/ai_function_evaluation)."
       }
-    ]
+    ],
+    "summary": "Public-preview experiments measure AI-function quality, cost, token use and output consistency against labeled data."
   },
   {
     "id": "ref-d6b532935920",
     "name": "Snowflake AI_FUNCTION_OPTIMIZATION",
     "title": "Snowflake AI_FUNCTION_OPTIMIZATION",
-    "url": "https://docs.snowflake.com/en/sql-reference/functions/ai_function_optimization",
-    "year": null,
+    "url": "https://docs.snowflake.com/en/release-notes/2026/other/2026-09-21-ai-function-optimization-preview",
+    "year": 2026,
     "category": "Product documentation and platform references",
     "sourceType": "Product documentation",
     "relevance": "Related methods and background",
-    "reviewStatus": "Metadata pending verification",
+    "reviewStatus": "Documentation checked",
     "profile": false,
-    "verifiedDate": null,
-    "evidence": "Imported reference; metadata not independently checked",
+    "verifiedDate": "2026-10-24",
+    "evidence": "September 21, 2026 official public-preview announcement checked; no independent product evaluation.",
     "tags": [],
-    "aliases": [],
+    "aliases": [
+      "https://docs.snowflake.com/en/sql-reference/functions/ai_function_optimization"
+    ],
     "provenance": [
       {
         "document": "state-of-the-art.md",
@@ -3396,7 +3443,8 @@
         "section": "Product documentation and platform references",
         "citation": "[Snowflake AI_FUNCTION_OPTIMIZATION](https://docs.snowflake.com/en/sql-reference/functions/ai_function_optimization)."
       }
-    ]
+    ],
+    "summary": "Public-preview experiments search prompt and model configurations, compare quality and estimated cost, and materialize a selected AI function."
   },
   {
     "id": "ref-b01de60e31ab",
@@ -3443,6 +3491,141 @@
         "line": 2168,
         "section": "Product documentation and platform references",
         "citation": "[Databricks Vector Search](https://docs.databricks.com/aws/en/generative-ai/vector-search)."
+      }
+    ]
+  },
+  {
+    "id": "semreuse",
+    "provenance": [
+      {
+        "citation": "[SemReuse: Certified Reuse of Cached Natural-Language Views for Semantic Operators](https://arxiv.org/abs/2610.16035). 2026.",
+        "checkedDate": "2026-10-24"
+      }
+    ],
+    "name": "SemReuse",
+    "title": "SemReuse: Certified Reuse of Cached Natural-Language Views for Semantic Operators",
+    "url": "https://arxiv.org/abs/2610.16035",
+    "year": 2026,
+    "summary": "Reuses materialized semantic-filter results using inferred relationships between predicates, then audits provisional answers with pooled stratified sampling. Additional evaluations repair answers that cannot yet be certified.",
+    "interface": "Semantic filters and materialized views",
+    "caveat": "Precision and recall claims concern the paper’s audit procedure and assumptions. Fallible predicate relationships and inconsistent filter decisions can increase repair work; reuse is not guaranteed to save calls.",
+    "tags": [
+      "Semantic filters",
+      "Reuse",
+      "Quality guarantees"
+    ],
+    "evidence": "arXiv v1 publication record and abstract checked; full paper and implementation not reviewed.",
+    "category": "Optimization",
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "verifiedDate": "2026-10-24",
+    "profile": true,
+    "aliases": []
+  },
+  {
+    "id": "imlane",
+    "provenance": [
+      {
+        "citation": "[IMLane: Composable Framework for Efficient AI Function Execution in Database Engine](https://www.vldb.org/pvldb/vol19/p4223-xu.pdf). 2026.",
+        "checkedDate": "2026-10-24"
+      }
+    ],
+    "name": "IMLane",
+    "title": "IMLane: Composable Framework for Efficient AI Function Execution in Database Engine",
+    "url": "https://www.vldb.org/pvldb/vol19/p4223-xu.pdf",
+    "year": 2026,
+    "summary": "Separates AI-function scheduling from the database scheduler and uses process-level execution to address Python parallelism and resource-utilization bottlenecks. The framework is integrated with OceanBase and DuckDB.",
+    "interface": "In-database Python AI functions",
+    "caveat": "This is an execution framework for AI functions, including predictive models. Its integration with database engines does not establish semantic-operator quality guarantees.",
+    "tags": [
+      "Execution",
+      "Scheduling",
+      "SQL"
+    ],
+    "evidence": "PVLDB 19(12), pages 4223–4236: title, authors, abstract and DOI checked; no full-paper review or reproduction.",
+    "category": "Optimization",
+    "sourceType": "Research paper",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Publication record checked",
+    "verifiedDate": "2026-10-24",
+    "profile": true,
+    "aliases": [
+      "https://doi.org/10.14778/3827998.3828028"
+    ]
+  },
+  {
+    "id": "snowflake-response-caching",
+    "name": "Snowflake response caching",
+    "title": "Sep 29, 2026: Response caching for Cortex AI Functions",
+    "url": "https://docs.snowflake.com/en/release-notes/2026/other/2026-09-29-cortex-response-caching",
+    "year": 2026,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Documentation checked",
+    "profile": false,
+    "verifiedDate": "2026-10-24",
+    "evidence": "Dated official announcement checked; no independent performance measurement.",
+    "summary": "Snowflake documents best-effort reuse of identical AI_COMPLETE text calls within one query. Cache hits are not billed. This is not certified reuse across different predicates or queries.",
+    "tags": [
+      "Product updates"
+    ],
+    "aliases": [],
+    "provenance": [
+      {
+        "citation": "[Sep 29, 2026: Response caching for Cortex AI Functions](https://docs.snowflake.com/en/release-notes/2026/other/2026-09-29-cortex-response-caching).",
+        "checkedDate": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "databricks-extraction-october-2026",
+    "name": "Databricks extraction updates",
+    "title": "October 2026 — Databricks product release notes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october",
+    "year": 2026,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Documentation checked",
+    "profile": false,
+    "verifiedDate": "2026-10-24",
+    "evidence": "Dated official announcement checked; no independent performance measurement.",
+    "summary": "October 2 entries describe a new ai_extract standard-mode checkpoint and chart data in ai_parse_document output. The stated speed and quality improvements are vendor claims about individual functions.",
+    "tags": [
+      "Product updates"
+    ],
+    "aliases": [],
+    "provenance": [
+      {
+        "citation": "[October 2026 — Databricks product release notes](https://docs.databricks.com/aws/en/release-notes/product/2026/october).",
+        "checkedDate": "2026-10-24"
+      }
+    ]
+  },
+  {
+    "id": "bigquery-graph-ga",
+    "name": "BigQuery Graph",
+    "title": "BigQuery Graph is now GA: the knowledge foundation for the agentic era",
+    "url": "https://cloud.google.com/blog/products/data-analytics/bigquery-graph-connecting-data-and-ai-at-scale/",
+    "year": 2026,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Documentation checked",
+    "profile": false,
+    "verifiedDate": "2026-10-24",
+    "evidence": "Dated official announcement checked; no independent performance measurement.",
+    "summary": "Google announced BigQuery Graph general availability on September 1, 2026. Native GQL traversal can be combined with SQL and AI functions; this is adjacent infrastructure for hybrid queries.",
+    "tags": [
+      "Product updates"
+    ],
+    "aliases": [],
+    "provenance": [
+      {
+        "citation": "[BigQuery Graph is now GA: the knowledge foundation for the agentic era](https://cloud.google.com/blog/products/data-analytics/bigquery-graph-connecting-data-and-ai-at-scale/).",
+        "checkedDate": "2026-10-24"
       }
     ]
   }
