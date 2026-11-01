@@ -3647,8 +3647,15 @@
         "source": "Weekly newsletter source check",
         "discoveredDate": "2026-11-01",
         "eventDate": "2026-10-26",
-        "url": "https://arxiv.org/abs/2610.34860"
+        "url": "https://arxiv.org/abs/2610.34860",
+        "citation": "Semantic Atoms for Scalable Text Analysis in Data Analytics in the Era of LLM-Based Agents. https://arxiv.org/abs/2610.34860"
       }
+    ],
+    "name": "TADA-Agent",
+    "category": "Research paper",
+    "tags": [
+      "Semantic operators",
+      "Reuse"
     ]
   },
   {
@@ -3669,8 +3676,14 @@
         "source": "Weekly newsletter source check",
         "discoveredDate": "2026-11-01",
         "eventDate": "2026-10-28",
-        "url": "https://docs.snowflake.com/en/release-notes/2026/other/2026-10-28-ai-parse-document-agentic-mode-preview"
+        "url": "https://docs.snowflake.com/en/release-notes/2026/other/2026-10-28-ai-parse-document-agentic-mode-preview",
+        "citation": "Oct 28, 2026: AI_PARSE_DOCUMENT introduces AGENTIC mode for intelligent document processing (Public Preview). https://docs.snowflake.com/en/release-notes/2026/other/2026-10-28-ai-parse-document-agentic-mode-preview"
       }
+    ],
+    "name": "Oct 28, 2026: AI_PARSE_DOCUMENT introduces AGENTIC mode for intelligent document processing (Public Preview)",
+    "category": "Product documentation and platform references",
+    "tags": [
+      "Product updates"
     ]
   },
   {
@@ -3691,8 +3704,14 @@
         "source": "Weekly newsletter source check",
         "discoveredDate": "2026-11-01",
         "eventDate": "2026-10-27",
-        "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october"
+        "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october",
+        "citation": "AI Functions Unity Catalog permissions. https://docs.databricks.com/aws/en/large-language-models/ai-functions-uc-permissions"
       }
+    ],
+    "name": "AI Functions Unity Catalog permissions",
+    "category": "Product documentation and platform references",
+    "tags": [
+      "Product updates"
     ]
   },
   {
@@ -3713,8 +3732,14 @@
         "source": "Weekly newsletter source check",
         "discoveredDate": "2026-11-01",
         "eventDate": "2026-10-27",
-        "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026"
+        "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026",
+        "citation": "The AI.COUNT_TOKENS function. https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-count-tokens"
       }
+    ],
+    "name": "The AI.COUNT_TOKENS function",
+    "category": "Product documentation and platform references",
+    "tags": [
+      "Product updates"
     ]
   },
   {
@@ -3735,8 +3760,15 @@
         "source": "Weekly newsletter source check",
         "discoveredDate": "2026-11-01",
         "eventDate": "2026-10-23",
-        "url": "https://arxiv.org/abs/2610.32586"
+        "url": "https://arxiv.org/abs/2610.32586",
+        "citation": "OCTOPUS: Towards A Tag Model for Cross-Query Reuse in Semantic Query Processing. https://arxiv.org/abs/2610.32586"
       }
+    ],
+    "name": "OCTOPUS",
+    "category": "Research paper",
+    "tags": [
+      "Semantic operators",
+      "Reuse"
     ]
   }
 ]

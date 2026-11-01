@@ -1,5 +1,9 @@
 # Catalog releases
 
+## 2026-11-01
+
+Added publication-record entries for TADA-Agent semantic atoms and OCTOPUS, and official documentation for Snowflake agentic document parsing, Databricks AI-function permissions, and BigQuery token counting. Research checks cover records and abstracts, not full papers or reproduced results.
+
 ## 2026-10-24
 
 Added SemReuse and IMLane profiles; verified and added profiles to the existing CADENZA and Featurized-Decomposition Join records without changing their IDs. Added dated Snowflake caching, Databricks extraction and BigQuery Graph sources, and verified Snowflake evaluation and optimization preview announcements. These checks cover publication records, abstracts and official announcements, not full-paper review or independent reproduction.
