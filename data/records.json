@@ -3628,5 +3628,115 @@
         "checkedDate": "2026-10-24"
       }
     ]
+  },
+  {
+    "id": "tada-semantic-atoms",
+    "title": "Semantic Atoms for Scalable Text Analysis in Data Analytics in the Era of LLM-Based Agents",
+    "url": "https://arxiv.org/abs/2610.34860",
+    "year": 2026,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "profile": false,
+    "verifiedDate": "2026-11-01",
+    "evidence": "Primary publication record, abstract and version history checked; no full-paper review or reproduction.",
+    "summary": "This preprint defines two query-driven operations for text analysis: Tagging produces a value for each input item, while Categorization produces a category table. TADA-Agent materializes these outputs for subsequent SQL or Python computation.",
+    "aliases": [],
+    "provenance": [
+      {
+        "source": "Weekly newsletter source check",
+        "discoveredDate": "2026-11-01",
+        "eventDate": "2026-10-26",
+        "url": "https://arxiv.org/abs/2610.34860"
+      }
+    ]
+  },
+  {
+    "id": "snowflake-agentic-parse",
+    "title": "Oct 28, 2026: AI_PARSE_DOCUMENT introduces AGENTIC mode for intelligent document processing (Public Preview)",
+    "url": "https://docs.snowflake.com/en/release-notes/2026/other/2026-10-28-ai-parse-document-agentic-mode-preview",
+    "year": 2026,
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Documentation checked",
+    "profile": false,
+    "verifiedDate": "2026-11-01",
+    "evidence": "Official release announcement and documentation checked; no independent implementation evaluation.",
+    "summary": "AGENTIC mode enters public preview. Snowflake describes a SQL function that identifies visual content, selects processing actions, and returns document text and layout alongside visual summaries or structured extraction results.",
+    "aliases": [],
+    "provenance": [
+      {
+        "source": "Weekly newsletter source check",
+        "discoveredDate": "2026-11-01",
+        "eventDate": "2026-10-28",
+        "url": "https://docs.snowflake.com/en/release-notes/2026/other/2026-10-28-ai-parse-document-agentic-mode-preview"
+      }
+    ]
+  },
+  {
+    "id": "databricks-ai-function-permissions",
+    "title": "AI Functions Unity Catalog permissions",
+    "url": "https://docs.databricks.com/aws/en/large-language-models/ai-functions-uc-permissions",
+    "year": 2026,
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Documentation checked",
+    "profile": false,
+    "verifiedDate": "2026-11-01",
+    "evidence": "Official release announcement and documentation checked; no independent implementation evaluation.",
+    "summary": "Unity Catalog permissions can govern task-specific functions in the system.ai schema. The October 27 announcement marks general availability; account-team enablement is still required.",
+    "aliases": [],
+    "provenance": [
+      {
+        "source": "Weekly newsletter source check",
+        "discoveredDate": "2026-11-01",
+        "eventDate": "2026-10-27",
+        "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/october"
+      }
+    ]
+  },
+  {
+    "id": "bigquery-count-tokens",
+    "title": "The AI.COUNT_TOKENS function",
+    "url": "https://docs.cloud.google.com/bigquery/docs/reference/standard-sql/bigqueryml-syntax-ai-count-tokens",
+    "year": 2026,
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Documentation checked",
+    "profile": false,
+    "verifiedDate": "2026-11-01",
+    "evidence": "Official release announcement and documentation checked; no independent implementation evaluation.",
+    "summary": "AI.COUNT_TOKENS estimates the token count of a text prompt using model-specific tokenization rules. Google lists its general availability in the October 27 release notes.",
+    "aliases": [],
+    "provenance": [
+      {
+        "source": "Weekly newsletter source check",
+        "discoveredDate": "2026-11-01",
+        "eventDate": "2026-10-27",
+        "url": "https://docs.cloud.google.com/bigquery/docs/release-notes#October_27_2026"
+      }
+    ]
+  },
+  {
+    "id": "octopus-tag-model",
+    "title": "OCTOPUS: Towards A Tag Model for Cross-Query Reuse in Semantic Query Processing",
+    "url": "https://arxiv.org/abs/2610.32586",
+    "year": 2026,
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "profile": false,
+    "verifiedDate": "2026-11-01",
+    "evidence": "Primary publication record, abstract and version history checked; no full-paper review or reproduction.",
+    "summary": "OCTOPUS proposes tags and tag operators to retain model judgments in database relations. Relationships between predicates guide reuse, elimination, test simplification and search order across queries.",
+    "aliases": [],
+    "provenance": [
+      {
+        "source": "Weekly newsletter source check",
+        "discoveredDate": "2026-11-01",
+        "eventDate": "2026-10-23",
+        "url": "https://arxiv.org/abs/2610.32586"
+      }
+    ]
   }
 ]
