@@ -3770,5 +3770,142 @@
       "Semantic operators",
       "Reuse"
     ]
+  },
+  {
+    "id": "seqoflow",
+    "name": "SeqoFlow",
+    "title": "Navigating Runtime Dynamism in Semantic Query Serving",
+    "url": "https://arxiv.org/abs/2611.04248",
+    "year": 2026,
+    "category": "Research paper",
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "profile": false,
+    "verifiedDate": "2026-11-08",
+    "evidence": "Primary publication record and abstract checked; no full-paper review or reproduction.",
+    "summary": "The SeqoFlow preprint studies concurrent semantic queries whose operator costs and selectivities change during execution. It proposes batch-level plan adaptation and preemption, guided by speculative estimates of remaining model work.",
+    "tags": [
+      "Semantic operators",
+      "Execution"
+    ],
+    "aliases": [],
+    "provenance": [
+      {
+        "citation": "Navigating Runtime Dynamism in Semantic Query Serving. https://arxiv.org/abs/2611.04248",
+        "discoveredDate": "2026-11-08",
+        "eventDate": "2026-11-03",
+        "url": "https://arxiv.org/abs/2611.04248"
+      }
+    ]
+  },
+  {
+    "id": "snowflake-extract-november-2026",
+    "name": "Nov 02, 2026: AI_EXTRACT updates (Public Preview)",
+    "title": "Nov 02, 2026: AI_EXTRACT updates (Public Preview)",
+    "url": "https://docs.snowflake.com/en/release-notes/2026/other/2026-11-02-ai-extract",
+    "year": 2026,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Documentation checked",
+    "profile": false,
+    "verifiedDate": "2026-11-08",
+    "evidence": "Official announcement and documentation checked; no independent evaluation.",
+    "summary": "Snowflake raises the AI_EXTRACT document limit from 125 to 1,000 pages and updates multi-field extraction. With cross-region inference enabled, the update applies without SQL changes or a price change; scale_factor values are now ignored.",
+    "tags": [
+      "Product updates"
+    ],
+    "aliases": [],
+    "provenance": [
+      {
+        "citation": "Nov 02, 2026: AI_EXTRACT updates (Public Preview). https://docs.snowflake.com/en/release-notes/2026/other/2026-11-02-ai-extract",
+        "discoveredDate": "2026-11-08",
+        "eventDate": "2026-11-02",
+        "url": "https://docs.snowflake.com/en/release-notes/2026/other/2026-11-02-ai-extract"
+      }
+    ]
+  },
+  {
+    "id": "databricks-ai-function-tasks",
+    "name": "AI Function tasks for jobs",
+    "title": "AI Function tasks for jobs",
+    "url": "https://docs.databricks.com/aws/en/jobs/tasks/ai-functions/",
+    "year": 2026,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Documentation checked",
+    "profile": false,
+    "verifiedDate": "2026-11-08",
+    "evidence": "Official announcement and documentation checked; no independent evaluation.",
+    "summary": "The beta adds job tasks for ai_parse_document, ai_extract and ai_classify over files or table rows. Results are stored in a managed Unity Catalog table, with later runs processing changed inputs and removing results for deleted inputs.",
+    "tags": [
+      "Product updates"
+    ],
+    "aliases": [],
+    "provenance": [
+      {
+        "citation": "AI Function tasks for jobs. https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+        "discoveredDate": "2026-11-08",
+        "eventDate": "2026-11-04",
+        "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november"
+      }
+    ]
+  },
+  {
+    "id": "databricks-ai-runtime-support",
+    "name": "Upcoming removal of AI Functions support on older runtimes",
+    "title": "Upcoming removal of AI Functions support on older runtimes",
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#upcoming-removal-of-ai-functions-support-on-older-runtimes",
+    "year": 2026,
+    "category": "Product documentation and platform references",
+    "sourceType": "Product documentation",
+    "relevance": "Related methods and background",
+    "reviewStatus": "Documentation checked",
+    "profile": false,
+    "verifiedDate": "2026-11-08",
+    "evidence": "Official announcement and documentation checked; no independent evaluation.",
+    "summary": "Databricks announces that AI Functions in SQL will stop supporting runtimes below 17.3 LTS starting in January 2027. The November notice excludes ai_similarity and the AI Functions REST API from this change.",
+    "tags": [
+      "Product updates"
+    ],
+    "aliases": [],
+    "provenance": [
+      {
+        "citation": "Upcoming removal of AI Functions support on older runtimes. https://docs.databricks.com/aws/en/release-notes/product/2026/november#upcoming-removal-of-ai-functions-support-on-older-runtimes",
+        "discoveredDate": "2026-11-08",
+        "eventDate": "2026-11-05",
+        "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november#upcoming-removal-of-ai-functions-support-on-older-runtimes"
+      }
+    ]
+  },
+  {
+    "id": "probe-semantic-queries",
+    "name": "PROBE",
+    "title": "PROBE: Learned Proxy-Based Execution for Highly Selective Multimodal Semantic Queries",
+    "url": "https://arxiv.org/abs/2611.01454",
+    "year": 2026,
+    "category": "Research paper",
+    "sourceType": "Research paper",
+    "relevance": "Core SQPE research",
+    "reviewStatus": "Publication record checked",
+    "profile": false,
+    "verifiedDate": "2026-11-08",
+    "evidence": "Primary publication record and abstract checked; no full-paper review or reproduction.",
+    "summary": "PROBE combines selectivity-adaptive sampling, a learned proxy, graph-based score refinement and calibrated routing to a model. Its preprint evaluates highly selective multimodal queries from SemBench and LRO-Bench.",
+    "tags": [
+      "Semantic operators",
+      "Execution"
+    ],
+    "aliases": [],
+    "provenance": [
+      {
+        "citation": "PROBE: Learned Proxy-Based Execution for Highly Selective Multimodal Semantic Queries. https://arxiv.org/abs/2611.01454",
+        "discoveredDate": "2026-11-08",
+        "eventDate": "2026-11-01",
+        "url": "https://arxiv.org/abs/2611.01454"
+      }
+    ]
   }
 ]
